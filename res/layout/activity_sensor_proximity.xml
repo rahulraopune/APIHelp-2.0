@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <TextView
+    	android:id="@+id/Sensor_Proximity_Near"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginBottom="127dp"
+    	android:text="NEAR"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:textSize="35dp" />
+
+    <TextView
+    	android:id="@+id/textView3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="48dp"
+    	android:text="PROXIMITY SENSOR"
+    	android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:textSize="30dp" />
+
+    <TextView
+    	android:id="@+id/Sensor_Proximity_Far"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/textView3"
+    	android:layout_below="@+id/textView3"
+    	android:layout_marginLeft="22dp"
+    	android:layout_marginTop="46dp"
+    	android:text="FAR"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+    	android:id="@+id/tv_proximity_value"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignRight="@+id/Sensor_Proximity_Near"
+    	android:layout_marginBottom="18dp"
+    	android:text="Value:"
+    	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="rahulapps.apihelp"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<uses-sdk
+		android:minSdkVersion="11"
+		android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.SET_WALLPAPER"/>
+	<uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+	
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		
+		<!-- SPLASH ACTIVITY -->
+		<activity
+			android:name="rahulapps.apihelp.Splash"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		
+		
+		<!-- MAIN MENU -->
+		<activity
+			android:name="rahulapps.apihelp.MenuList"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.MenuList" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		
+		
+		
+		<!-- BLUETOOTH -->
+		<!-- BLUETOOTH MENU-->
+		<activity
+			android:name="rahulapps.apihelp.Bluetooth.BluetoothMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Bluetooth.BluetoothMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- BLUETOOTH API -->
+		<activity
+			android:name="rahulapps.apihelp.Bluetooth.BluetoothAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Bluetooth.BluetoothAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Bluetooth CODE  -->
+		
+		<activity
+			android:name="rahulapps.apihelp.Bluetooth.BluetoothCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Bluetooth.BluetoothCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- WIFI -->
+		<!-- WIFI MENU -->
+		<activity
+			android:name="rahulapps.apihelp.Wifi.WifiMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Wifi.WifiMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<!-- WIFI API -->
+		<activity
+			android:name="rahulapps.apihelp.Wifi.WifiAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Wifi.WifiAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	
+			<!-- WIFI CODE -->
+		<activity
+			android:name="rahulapps.apihelp.Wifi.WifiCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Wifi.WifiCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- SENSOR -->
+		<!-- SENSOR MENU -->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Sensor Accelerometer Menu -->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorAccelerometerMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorAccelerometerMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Sensor Accelerometer API-->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorAccelerometerAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorAccelerometerAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Sensor Accelerometer Code-->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorAccelerometerCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorAccelerometerCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+				
+		<!-- Sensor Proximity Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorProximityMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorProximityMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<!-- Sensor Proximity API-->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorProximityAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorProximityAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+
+		<!-- Sensor Proximity Code-->
+		<activity
+			android:name="rahulapps.apihelp.Sensor.SensorProximityCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Sensor.SensorProximityCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- SplashActivity -->
+		<!-- SplashActivity Menu-->
+		<activity
+			android:name="rahulapps.apihelp.SplashActivity.SplashMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SplashActivity.SplashMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- SplashActivity API-->
+		<activity
+			android:name="rahulapps.apihelp.SplashActivity.SplashAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SplashActivity.SplashAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- SplashActivity Code-->
+		<activity
+			android:name="rahulapps.apihelp.SplashActivity.SplashCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SplashActivity.SplashCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- MenuActivity -->
+		<!-- MenuActivity Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Menus.MenuActivityMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Menus.MenuActivityMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- MenuActivity API-->
+		<activity
+			android:name="rahulapps.apihelp.Menus.MenuActivityAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Menus.MenuActivityAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- MenuActivity Code-->
+		<activity
+			android:name="rahulapps.apihelp.Menus.MenuActivityCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Menus.MenuActivityCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+						
+		<!-- Speech Recognition -->
+		<!-- Speech Recognition Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Speech.SpeechRecognitionMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Speech.SpeechRecognitionMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Speech Recognition API-->
+		<activity
+			android:name="rahulapps.apihelp.Speech.SpeechRecognitionAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Speech.SpeechRecognitionAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!-- Speech Recognition Code-->
+		<activity
+			android:name="rahulapps.apihelp.Speech.SpeechRecognitionCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Speech.SpeechRecognitionCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	
+		
+		<!--Settings-->
+		<activity
+			android:name="rahulapps.apihelp.Settings.SettingsAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Settings.SettingsAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<!--About-->
+		<activity
+			android:name="rahulapps.apihelp.Settings.AboutAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Settings.AboutAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Comment-->
+		<activity
+			android:name="rahulapps.apihelp.Settings.CommentAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Settings.CommentAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+				
+		<!--Graph Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.GraphMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.GraphMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Sine Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.SineMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.SineMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Tan Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.TanMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.TanMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+
+		<!--Sine View-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.SineView"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.SineView" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Tan View-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.TanView"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.TanView" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<!--Sine Code-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.SineCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.SineCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Tan Code-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.TanCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.TanCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<!--Sine-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.Sine"
+			android:label="@string/app_name" 
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.Sine" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Tan-->
+		<activity
+			android:name="rahulapps.apihelp.Graphs.Tan"
+			android:label="@string/app_name" 
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Graphs.Tan" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--NotificationAPI -->
+		<activity
+			android:name="rahulapps.apihelp.Notifications.NotificationAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Notifications.NotificationAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Notification Code-->
+		<activity
+			android:name="rahulapps.apihelp.Notifications.NotificationCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Notifications.NotificationCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+		<!--Notification Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Notifications.NotificationMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Notifications.NotificationMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+	
+		<!--File IO API-->
+		<activity
+			android:name="rahulapps.apihelp.FileIO.FileIOAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.FileIO.FileIOAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+		<!--File IO Code-->
+		<activity
+			android:name="rahulapps.apihelp.FileIO.FileIOCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.FileIO.FileIOCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--File IO Menu-->
+		<activity
+			android:name="rahulapps.apihelp.FileIO.FileIOMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.FileIO.FileIOMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Email API-->
+		<activity
+			android:name="rahulapps.apihelp.Email.EmailAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Email.EmailAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Email Code-->
+		<activity
+			android:name="rahulapps.apihelp.Email.EmailCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Email.EmailCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+		<!--Email Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Email.EmailMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Email.EmailMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>	
+		
+		<!--Camera API-->
+		<activity
+			android:name="rahulapps.apihelp.Camera.CameraAPI"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Camera.CameraAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Camera Menu-->
+		<activity
+			android:name="rahulapps.apihelp.Camera.CameraMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Camera.CameraMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Camera Code-->
+		<activity
+			android:name="rahulapps.apihelp.Camera.CameraCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Camera.CameraCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom List View Menu-->
+		<activity
+			android:name="rahulapps.apihelp.CustomListView.CustomListViewMenu"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom List View Row XML -->
+		<activity
+			android:name="rahulapps.apihelp.CustomListView.CustomListViewViewXML"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewViewXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom List View Layout XML-->
+		<activity
+			android:name="rahulapps.apihelp.CustomListView.CustomListViewLayoutXML"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewLayoutXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom List View Code-->
+		<activity
+			android:name="rahulapps.apihelp.CustomListView.CustomListViewCode"
+			android:label="@string/app_name" >
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+		<!--Custom List View api-->
+		<activity
+			android:name="rahulapps.apihelp.CustomListView.CustomListViewAPI"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--SQLite Menu-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteMenu"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+			
+		<!--SQLite Front-End-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteFrontEnd"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteFrontEnd" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--SQLite Back-End-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.RahulDatabaseAdapter"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.RahulDatabaseAdapter" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--SQLite Front-End Code-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteFrontendCode"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteFrontendCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>	
+		
+		<!--SQLite Back-End Code-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteBackendCode"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteBackendCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>			
+													
+	
+	
+		<!--Manifest Code-->
+		<activity
+			android:name="rahulapps.apihelp.Manifest.ManifestCode"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.Manifest.ManifestCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>			
+													
+	</application>
+		
+</manifest>
