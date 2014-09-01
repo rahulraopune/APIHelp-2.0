@@ -1,15 +1,19 @@
 package rahulapps.apihelp.SQLite;
 
 
+
+import com.actionbarsherlock.app.SherlockActivity;
+
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
 
-public class RahulDatabaseAdapter 
+public class RahulDatabaseAdapter extends SherlockActivity
 {
 	RahulHelper rahulHelper ;
 	Context context;
@@ -31,8 +35,10 @@ public class RahulDatabaseAdapter
 		return id;
 	}
 	
-	public void displayData()
+	public String displayData()
 	{
+		
+		
 		StringBuilder sb = new StringBuilder();
 		SQLiteDatabase db = rahulHelper.getWritableDatabase();
 		String[] columns = {RahulHelper.UID,RahulHelper.NAME,RahulHelper.PASSWORD}; 
@@ -45,7 +51,10 @@ public class RahulDatabaseAdapter
 			sb.append("_id:"+cid+" Name:"+cName+" Password:"+cPassword+"\n");
 		}
 		String msg = sb.toString();
-		Toast.makeText(context, msg, Toast.LENGTH_LONG).show();
+		//Toast.makeText(context, msg, Toast.LENGTH_LONG).show();
+		
+		return msg;
+		
 		
 	}
 	

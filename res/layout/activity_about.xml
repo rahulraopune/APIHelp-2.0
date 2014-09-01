@@ -72,7 +72,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/tvsqliteoutput"
         android:layout_column="4"
         android:layout_gravity="left|bottom"
         android:layout_marginTop="32dp"

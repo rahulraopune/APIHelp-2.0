@@ -1,6 +1,8 @@
 package rahulapps.apihelp;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -8,6 +10,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -50,6 +53,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		lv.setAdapter(arrayadapter);
 		
 		getSupportActionBar().setTitle("APIHelp 2.0");
+		
 		
 		lv.setOnItemClickListener(this);
 		

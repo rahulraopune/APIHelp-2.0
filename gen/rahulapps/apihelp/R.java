@@ -931,31 +931,32 @@ containing a value of this type.
         public static final int watermelon=0x7f020087;
     }
     public static final class id {
-        public static final int ABC=0x7f05005a;
+        public static final int ABC=0x7f050059;
         public static final int ABOUT=0x7f050070;
-        public static final int BUTTON_COMMENT_DONE=0x7f050043;
-        public static final int BUTTON_DONE=0x7f050051;
-        public static final int BUTTON_NOTIFICATION=0x7f050059;
-        public static final int BUTTON_PHOTO_CLICK=0x7f05003e;
-        public static final int BUTTON_SET_AS_WALLPAPER=0x7f05003c;
+        public static final int BUTTON_COMMENT_DONE=0x7f050042;
+        public static final int BUTTON_DONE=0x7f050050;
+        public static final int BUTTON_NOTIFICATION=0x7f050058;
+        public static final int BUTTON_PHOTO_CLICK=0x7f05003d;
+        public static final int BUTTON_SET_AS_WALLPAPER=0x7f05003b;
         public static final int BluetoothAPI_Switch=0x7f05003a;
         public static final int COMMENT=0x7f050071;
         public static final int Common_ListView=0x7f05006f;
-        public static final int EDITTEXT_BODY=0x7f050050;
-        public static final int EDITTEXT_COMMENT_BODY=0x7f050042;
-        public static final int EDITTEXT_COMMENT_NAME=0x7f050044;
-        public static final int EDITTEXT_COMMENT_SUBJECT=0x7f050040;
-        public static final int EDITTEXT_EMAIL=0x7f05004f;
-        public static final int EDITTEXT_NAME=0x7f050052;
+        public static final int EDITTEXT_BODY=0x7f05004f;
+        public static final int EDITTEXT_COMMENT_BODY=0x7f050041;
+        public static final int EDITTEXT_COMMENT_NAME=0x7f050043;
+        public static final int EDITTEXT_COMMENT_SUBJECT=0x7f05003f;
+        public static final int EDITTEXT_EMAIL=0x7f05004e;
+        public static final int EDITTEXT_NAME=0x7f050051;
         public static final int EXIT=0x7f050072;
         public static final int GridLayout1=0x7f050032;
-        public static final int IMAGEVIEW_CAMERA=0x7f05003d;
-        public static final int NavigationDrawer=0x7f050056;
-        public static final int Sensor_Proximity_Far=0x7f05005c;
-        public static final int Sensor_Proximity_Near=0x7f05005b;
+        public static final int IMAGEVIEW_CAMERA=0x7f05003c;
+        public static final int NavigationDrawer=0x7f050055;
+        public static final int RelativeLayout1=0x7f050069;
+        public static final int Sensor_Proximity_Far=0x7f05005b;
+        public static final int Sensor_Proximity_Near=0x7f05005a;
         public static final int Space1=0x7f050033;
         public static final int TV=0x7f05006e;
-        public static final int TextView01=0x7f050041;
+        public static final int TextView01=0x7f050040;
         public static final int WIFI_SWITCH=0x7f05006b;
         public static final int abs__action_bar=0x7f050020;
         public static final int abs__action_bar_container=0x7f05001f;
@@ -996,54 +997,53 @@ containing a value of this type.
         public static final int abs__textButton=0x7f050013;
         public static final int abs__title=0x7f05001b;
         public static final int abs__up=0x7f05000b;
-        public static final int bInsert=0x7f050066;
-        public static final int bSearch=0x7f050067;
-        public static final int bShowDetails=0x7f050065;
-        public static final int customtoastlayout=0x7f05004c;
+        public static final int bInsert=0x7f050065;
+        public static final int bSearch=0x7f050066;
+        public static final int bShowDetails=0x7f050064;
+        public static final int customtoastlayout=0x7f05004b;
         public static final int disableHome=0x7f050009;
-        public static final int drawerListView=0x7f050058;
+        public static final int drawerListView=0x7f050057;
         public static final int edit_query=0x7f050026;
-        public static final int emailLayout=0x7f05003f;
-        public static final int etPassword=0x7f050068;
-        public static final int etSearch=0x7f050069;
-        public static final int etUserName=0x7f050063;
-        public static final int framecontent=0x7f050057;
-        public static final int gridView=0x7f050053;
+        public static final int emailLayout=0x7f05003e;
+        public static final int etPassword=0x7f050067;
+        public static final int etSearch=0x7f050068;
+        public static final int etUserName=0x7f050062;
+        public static final int framecontent=0x7f050056;
+        public static final int gridView=0x7f050052;
         public static final int homeAsUp=0x7f050006;
         public static final int horizontalScrollView1=0x7f05006d;
         public static final int imageView1=0x7f050037;
-        public static final int imgCountryPic=0x7f050054;
-        public static final int imgFruitPic=0x7f050049;
-        public static final int imgPicFruit=0x7f050047;
-        public static final int imgToastPic=0x7f05004d;
+        public static final int imgCountryPic=0x7f050053;
+        public static final int imgFruitPic=0x7f050048;
+        public static final int imgPicFruit=0x7f050046;
+        public static final int imgToastPic=0x7f05004c;
         public static final int listMode=0x7f050002;
-        public static final int lvListView=0x7f050045;
+        public static final int lvListView=0x7f050044;
         public static final int normal=0x7f050001;
-        public static final int rl=0x7f05005e;
+        public static final int rl=0x7f05005d;
         public static final int scrollView1=0x7f05006c;
         public static final int showCustom=0x7f050008;
         public static final int showHome=0x7f050005;
         public static final int showTitle=0x7f050007;
-        public static final int sineView1=0x7f050060;
-        public static final int speech_button=0x7f050061;
-        public static final int speech_listview=0x7f050062;
-        public static final int spinner_theme=0x7f05005f;
+        public static final int sineView1=0x7f05005f;
+        public static final int speech_button=0x7f050060;
+        public static final int speech_listview=0x7f050061;
+        public static final int spinner_theme=0x7f05005e;
         public static final int tabMode=0x7f050003;
         public static final int tanView1=0x7f05006a;
-        public static final int tbBluetooth=0x7f05003b;
-        public static final int textView1=0x7f050039;
         public static final int textView2=0x7f050034;
         public static final int textView3=0x7f050038;
         public static final int textView4=0x7f050036;
         public static final int textView5=0x7f050035;
-        public static final int tvCountryName=0x7f050055;
-        public static final int tvHeader=0x7f05004a;
-        public static final int tvHeading=0x7f050046;
-        public static final int tvSubHeader=0x7f05004b;
-        public static final int tvSubHeading=0x7f050048;
-        public static final int tvToast=0x7f05004e;
-        public static final int tvUserName=0x7f050064;
-        public static final int tv_proximity_value=0x7f05005d;
+        public static final int tvCountryName=0x7f050054;
+        public static final int tvHeader=0x7f050049;
+        public static final int tvHeading=0x7f050045;
+        public static final int tvSubHeader=0x7f05004a;
+        public static final int tvSubHeading=0x7f050047;
+        public static final int tvToast=0x7f05004d;
+        public static final int tvUserName=0x7f050063;
+        public static final int tv_proximity_value=0x7f05005c;
+        public static final int tvsqliteoutput=0x7f050039;
         public static final int useLogo=0x7f050004;
         public static final int wrap_content=0x7f050000;
     }
@@ -1093,13 +1093,14 @@ containing a value of this type.
         public static final int activity_speech=0x7f030027;
         public static final int activity_splash=0x7f030028;
         public static final int activity_sqlite=0x7f030029;
-        public static final int activity_tan=0x7f03002a;
-        public static final int activity_temp=0x7f03002b;
-        public static final int activity_wifi_api=0x7f03002c;
-        public static final int code=0x7f03002d;
-        public static final int common_menu=0x7f03002e;
-        public static final int sherlock_spinner_dropdown_item=0x7f03002f;
-        public static final int sherlock_spinner_item=0x7f030030;
+        public static final int activity_sqlite_output=0x7f03002a;
+        public static final int activity_tan=0x7f03002b;
+        public static final int activity_temp=0x7f03002c;
+        public static final int activity_wifi_api=0x7f03002d;
+        public static final int code=0x7f03002e;
+        public static final int common_menu=0x7f03002f;
+        public static final int sherlock_spinner_dropdown_item=0x7f030030;
+        public static final int sherlock_spinner_item=0x7f030031;
     }
     public static final class menu {
         public static final int common_menu=0x7f0d0000;
@@ -1364,7 +1365,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:background
+          @attr name rahulapps.apihelp:background
         */
         public static final int SherlockActionBar_background = 2;
         /**
@@ -1378,7 +1379,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:backgroundSplit
+          @attr name rahulapps.apihelp:backgroundSplit
         */
         public static final int SherlockActionBar_backgroundSplit = 3;
         /**
@@ -1392,7 +1393,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:backgroundStacked
+          @attr name rahulapps.apihelp:backgroundStacked
         */
         public static final int SherlockActionBar_backgroundStacked = 12;
         /**
@@ -1404,7 +1405,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:customNavigationLayout
+          @attr name rahulapps.apihelp:customNavigationLayout
         */
         public static final int SherlockActionBar_customNavigationLayout = 13;
         /**
@@ -1427,7 +1428,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:displayOptions
+          @attr name rahulapps.apihelp:displayOptions
         */
         public static final int SherlockActionBar_displayOptions = 7;
         /**
@@ -1439,7 +1440,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:divider
+          @attr name rahulapps.apihelp:divider
         */
         public static final int SherlockActionBar_divider = 5;
         /**
@@ -1457,7 +1458,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:height
+          @attr name rahulapps.apihelp:height
         */
         public static final int SherlockActionBar_height = 4;
         /**
@@ -1469,7 +1470,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:homeLayout
+          @attr name rahulapps.apihelp:homeLayout
         */
         public static final int SherlockActionBar_homeLayout = 14;
         /**
@@ -1481,7 +1482,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:icon
+          @attr name rahulapps.apihelp:icon
         */
         public static final int SherlockActionBar_icon = 10;
         /**
@@ -1493,7 +1494,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:indeterminateProgressStyle
+          @attr name rahulapps.apihelp:indeterminateProgressStyle
         */
         public static final int SherlockActionBar_indeterminateProgressStyle = 16;
         /**
@@ -1512,7 +1513,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:itemPadding
+          @attr name rahulapps.apihelp:itemPadding
         */
         public static final int SherlockActionBar_itemPadding = 18;
         /**
@@ -1524,7 +1525,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:logo
+          @attr name rahulapps.apihelp:logo
         */
         public static final int SherlockActionBar_logo = 11;
         /**
@@ -1544,7 +1545,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:navigationMode
+          @attr name rahulapps.apihelp:navigationMode
         */
         public static final int SherlockActionBar_navigationMode = 6;
         /**
@@ -1562,7 +1563,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:progressBarPadding
+          @attr name rahulapps.apihelp:progressBarPadding
         */
         public static final int SherlockActionBar_progressBarPadding = 17;
         /**
@@ -1574,7 +1575,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:progressBarStyle
+          @attr name rahulapps.apihelp:progressBarStyle
         */
         public static final int SherlockActionBar_progressBarStyle = 15;
         /**
@@ -1590,7 +1591,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:subtitle
+          @attr name rahulapps.apihelp:subtitle
         */
         public static final int SherlockActionBar_subtitle = 9;
         /**
@@ -1602,7 +1603,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:subtitleTextStyle
+          @attr name rahulapps.apihelp:subtitleTextStyle
         */
         public static final int SherlockActionBar_subtitleTextStyle = 1;
         /**
@@ -1618,7 +1619,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:title
+          @attr name rahulapps.apihelp:title
         */
         public static final int SherlockActionBar_title = 8;
         /**
@@ -1630,7 +1631,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:titleTextStyle
+          @attr name rahulapps.apihelp:titleTextStyle
         */
         public static final int SherlockActionBar_titleTextStyle = 0;
         /** Attributes that can be used with a SherlockActionMenuItemView.
@@ -1639,7 +1640,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActionMenuItemView_android_minWidth rahulapps.apihelp:android_minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SherlockActionMenuItemView_android_minWidth android:minWidth}</code></td><td></td></tr>
            </table>
            @see #SherlockActionMenuItemView_android_minWidth
          */
@@ -1647,9 +1648,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x0101013f
         };
         /**
-          <p>This symbol is the offset where the {@link rahulapps.apihelp.R.attr#android_minWidth}
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
           attribute's value can be found in the {@link #SherlockActionMenuItemView} array.
-          @attr name android:android_minWidth
+          @attr name android:minWidth
         */
         public static final int SherlockActionMenuItemView_android_minWidth = 0;
         /** Attributes that can be used with a SherlockActionMode.
@@ -1685,7 +1686,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:background
+          @attr name rahulapps.apihelp:background
         */
         public static final int SherlockActionMode_background = 2;
         /**
@@ -1699,7 +1700,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:backgroundSplit
+          @attr name rahulapps.apihelp:backgroundSplit
         */
         public static final int SherlockActionMode_backgroundSplit = 3;
         /**
@@ -1717,7 +1718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:height
+          @attr name rahulapps.apihelp:height
         */
         public static final int SherlockActionMode_height = 4;
         /**
@@ -1729,7 +1730,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:subtitleTextStyle
+          @attr name rahulapps.apihelp:subtitleTextStyle
         */
         public static final int SherlockActionMode_subtitleTextStyle = 1;
         /**
@@ -1741,7 +1742,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:titleTextStyle
+          @attr name rahulapps.apihelp:titleTextStyle
         */
         public static final int SherlockActionMode_titleTextStyle = 0;
         /** Attributes that can be used with a SherlockActivityChooserView.
@@ -1750,7 +1751,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActivityChooserView_android_background rahulapps.apihelp:android_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #SherlockActivityChooserView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #SherlockActivityChooserView_expandActivityOverflowButtonDrawable rahulapps.apihelp:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
            <tr><td><code>{@link #SherlockActivityChooserView_initialActivityCount rahulapps.apihelp:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
@@ -1762,9 +1763,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x010100d4, 0x7f01005e, 0x7f01005f
         };
         /**
-          <p>This symbol is the offset where the {@link rahulapps.apihelp.R.attr#android_background}
+          <p>This symbol is the offset where the {@link android.R.attr#background}
           attribute's value can be found in the {@link #SherlockActivityChooserView} array.
-          @attr name android:android_background
+          @attr name android:background
         */
         public static final int SherlockActivityChooserView_android_background = 0;
         /**
@@ -1781,7 +1782,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:expandActivityOverflowButtonDrawable
+          @attr name rahulapps.apihelp:expandActivityOverflowButtonDrawable
         */
         public static final int SherlockActivityChooserView_expandActivityOverflowButtonDrawable = 2;
         /**
@@ -1797,7 +1798,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:initialActivityCount
+          @attr name rahulapps.apihelp:initialActivityCount
         */
         public static final int SherlockActivityChooserView_initialActivityCount = 1;
         /**  Base attributes that are available to all groups. 
@@ -1806,12 +1807,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_checkableBehavior rahulapps.apihelp:android_checkableBehavior}</code></td><td> Whether the items are capable of displaying a check mark.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_enabled rahulapps.apihelp:android_enabled}</code></td><td> Whether the items are enabled.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_id rahulapps.apihelp:android_id}</code></td><td> The ID of the group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_menuCategory rahulapps.apihelp:android_menuCategory}</code></td><td> The category applied to all items within this group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_orderInCategory rahulapps.apihelp:android_orderInCategory}</code></td><td> The order within the category applied to all items within this group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_visible rahulapps.apihelp:android_visible}</code></td><td> Whether the items are shown/visible.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_checkableBehavior android:checkableBehavior}</code></td><td> Whether the items are capable of displaying a check mark.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_enabled android:enabled}</code></td><td> Whether the items are enabled.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_id android:id}</code></td><td> The ID of the group.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_menuCategory android:menuCategory}</code></td><td> The category applied to all items within this group.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to all items within this group.</td></tr>
+           <tr><td><code>{@link #SherlockMenuGroup_android_visible android:visible}</code></td><td> Whether the items are shown/visible.</td></tr>
            </table>
            @see #SherlockMenuGroup_android_checkableBehavior
            @see #SherlockMenuGroup_android_enabled
@@ -1828,24 +1829,27 @@ containing a value of this type.
           <p>
           @attr description
            Whether the items are capable of displaying a check mark. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_checkableBehavior}.
-          @attr name android:android_checkableBehavior
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#checkableBehavior}.
+          @attr name android:checkableBehavior
         */
         public static final int SherlockMenuGroup_android_checkableBehavior = 5;
         /**
           <p>
           @attr description
            Whether the items are enabled. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_enabled}.
-          @attr name android:android_enabled
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#enabled}.
+          @attr name android:enabled
         */
         public static final int SherlockMenuGroup_android_enabled = 0;
         /**
           <p>
           @attr description
            The ID of the group. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_id}.
-          @attr name android:android_id
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#id}.
+          @attr name android:id
         */
         public static final int SherlockMenuGroup_android_id = 1;
         /**
@@ -1853,8 +1857,9 @@ containing a value of this type.
           @attr description
            The category applied to all items within this group.
              (This will be or'ed with the orderInCategory attribute.) 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_menuCategory}.
-          @attr name android:android_menuCategory
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#menuCategory}.
+          @attr name android:menuCategory
         */
         public static final int SherlockMenuGroup_android_menuCategory = 3;
         /**
@@ -1862,16 +1867,18 @@ containing a value of this type.
           @attr description
            The order within the category applied to all items within this group.
              (This will be or'ed with the category attribute.) 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_orderInCategory}.
-          @attr name android:android_orderInCategory
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#orderInCategory}.
+          @attr name android:orderInCategory
         */
         public static final int SherlockMenuGroup_android_orderInCategory = 4;
         /**
           <p>
           @attr description
            Whether the items are shown/visible. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_visible}.
-          @attr name android:android_visible
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#visible}.
+          @attr name android:visible
         */
         public static final int SherlockMenuGroup_android_visible = 2;
         /**  Base attributes that are available to all Item objects. 
@@ -1880,26 +1887,26 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionLayout rahulapps.apihelp:android_actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionProviderClass rahulapps.apihelp:android_actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #SherlockMenuItem_android_actionLayout android:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_actionProviderClass android:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionViewClass rahulapps.apihelp:android_actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #SherlockMenuItem_android_actionViewClass android:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_alphabeticShortcut rahulapps.apihelp:android_alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_checkable rahulapps.apihelp:android_checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_checked rahulapps.apihelp:android_checked}</code></td><td> Whether the item is checked.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_enabled rahulapps.apihelp:android_enabled}</code></td><td> Whether the item is enabled.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_icon rahulapps.apihelp:android_icon}</code></td><td> The icon associated with this item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_id rahulapps.apihelp:android_id}</code></td><td> The ID of the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_menuCategory rahulapps.apihelp:android_menuCategory}</code></td><td> The category applied to the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_numericShortcut rahulapps.apihelp:android_numericShortcut}</code></td><td> The numeric shortcut key.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_onClick rahulapps.apihelp:android_onClick}</code></td><td> Name of a method on the Context used to inflate the menu that will be
+           <tr><td><code>{@link #SherlockMenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_checked android:checked}</code></td><td> Whether the item is checked.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_enabled android:enabled}</code></td><td> Whether the item is enabled.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_icon android:icon}</code></td><td> The icon associated with this item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_id android:id}</code></td><td> The ID of the item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_menuCategory android:menuCategory}</code></td><td> The category applied to the item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_numericShortcut android:numericShortcut}</code></td><td> The numeric shortcut key.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_onClick android:onClick}</code></td><td> Name of a method on the Context used to inflate the menu that will be
              called when the item is clicked.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_orderInCategory rahulapps.apihelp:android_orderInCategory}</code></td><td> The order within the category applied to the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_showAsAction rahulapps.apihelp:android_showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_title rahulapps.apihelp:android_title}</code></td><td> The title associated with the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_titleCondensed rahulapps.apihelp:android_titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_visible rahulapps.apihelp:android_visible}</code></td><td> Whether the item is shown/visible.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to the item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_showAsAction android:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
+           <tr><td><code>{@link #SherlockMenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
            </table>
            @see #SherlockMenuItem_android_actionLayout
            @see #SherlockMenuItem_android_actionProviderClass
@@ -1932,8 +1939,9 @@ containing a value of this type.
            An optional layout to be used as an action view.
              See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_actionLayout}.
-          @attr name android:android_actionLayout
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#actionLayout}.
+          @attr name android:actionLayout
         */
         public static final int SherlockMenuItem_android_actionLayout = 14;
         /**
@@ -1943,8 +1951,9 @@ containing a value of this type.
              and perform operations such as default action for that menu item.
              See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
              for more info. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_actionProviderClass}.
-          @attr name android:android_actionProviderClass
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#actionProviderClass}.
+          @attr name android:actionProviderClass
         */
         public static final int SherlockMenuItem_android_actionProviderClass = 16;
         /**
@@ -1953,8 +1962,9 @@ containing a value of this type.
            The name of an optional View class to instantiate and use as an
              action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_actionViewClass}.
-          @attr name android:android_actionViewClass
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#actionViewClass}.
+          @attr name android:actionViewClass
         */
         public static final int SherlockMenuItem_android_actionViewClass = 15;
         /**
@@ -1962,16 +1972,18 @@ containing a value of this type.
           @attr description
            The alphabetic shortcut key.  This is the shortcut when using a keyboard
              with alphabetic keys. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_alphabeticShortcut}.
-          @attr name android:android_alphabeticShortcut
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#alphabeticShortcut}.
+          @attr name android:alphabeticShortcut
         */
         public static final int SherlockMenuItem_android_alphabeticShortcut = 9;
         /**
           <p>
           @attr description
            Whether the item is capable of displaying a check mark. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_checkable}.
-          @attr name android:android_checkable
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#checkable}.
+          @attr name android:checkable
         */
         public static final int SherlockMenuItem_android_checkable = 11;
         /**
@@ -1979,16 +1991,18 @@ containing a value of this type.
           @attr description
            Whether the item is checked.  Note that you must first have enabled checking with
              the checkable attribute or else the check mark will not appear. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_checked}.
-          @attr name android:android_checked
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#checked}.
+          @attr name android:checked
         */
         public static final int SherlockMenuItem_android_checked = 3;
         /**
           <p>
           @attr description
            Whether the item is enabled. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_enabled}.
-          @attr name android:android_enabled
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#enabled}.
+          @attr name android:enabled
         */
         public static final int SherlockMenuItem_android_enabled = 1;
         /**
@@ -1996,16 +2010,18 @@ containing a value of this type.
           @attr description
            The icon associated with this item.  This icon will not always be shown, so
              the title should be sufficient in describing this item. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_icon}.
-          @attr name android:android_icon
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#icon}.
+          @attr name android:icon
         */
         public static final int SherlockMenuItem_android_icon = 0;
         /**
           <p>
           @attr description
            The ID of the item. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_id}.
-          @attr name android:android_id
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#id}.
+          @attr name android:id
         */
         public static final int SherlockMenuItem_android_id = 2;
         /**
@@ -2013,8 +2029,9 @@ containing a value of this type.
           @attr description
            The category applied to the item.
              (This will be or'ed with the orderInCategory attribute.) 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_menuCategory}.
-          @attr name android:android_menuCategory
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#menuCategory}.
+          @attr name android:menuCategory
         */
         public static final int SherlockMenuItem_android_menuCategory = 5;
         /**
@@ -2022,8 +2039,9 @@ containing a value of this type.
           @attr description
            The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
              keyboard. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_numericShortcut}.
-          @attr name android:android_numericShortcut
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#numericShortcut}.
+          @attr name android:numericShortcut
         */
         public static final int SherlockMenuItem_android_numericShortcut = 10;
         /**
@@ -2031,8 +2049,9 @@ containing a value of this type.
           @attr description
            Name of a method on the Context used to inflate the menu that will be
              called when the item is clicked. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_onClick}.
-          @attr name android:android_onClick
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#onClick}.
+          @attr name android:onClick
         */
         public static final int SherlockMenuItem_android_onClick = 12;
         /**
@@ -2040,24 +2059,27 @@ containing a value of this type.
           @attr description
            The order within the category applied to the item.
              (This will be or'ed with the category attribute.) 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_orderInCategory}.
-          @attr name android:android_orderInCategory
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#orderInCategory}.
+          @attr name android:orderInCategory
         */
         public static final int SherlockMenuItem_android_orderInCategory = 6;
         /**
           <p>
           @attr description
            How this item should display in the Action Bar, if present. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_showAsAction}.
-          @attr name android:android_showAsAction
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#showAsAction}.
+          @attr name android:showAsAction
         */
         public static final int SherlockMenuItem_android_showAsAction = 13;
         /**
           <p>
           @attr description
            The title associated with the item. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_title}.
-          @attr name android:android_title
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#title}.
+          @attr name android:title
         */
         public static final int SherlockMenuItem_android_title = 7;
         /**
@@ -2065,16 +2087,18 @@ containing a value of this type.
           @attr description
            The condensed title associated with the item.  This is used in situations where the
              normal title may be too long to be displayed. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_titleCondensed}.
-          @attr name android:android_titleCondensed
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#titleCondensed}.
+          @attr name android:titleCondensed
         */
         public static final int SherlockMenuItem_android_titleCondensed = 8;
         /**
           <p>
           @attr description
            Whether the item is shown/visible. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_visible}.
-          @attr name android:android_visible
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#visible}.
+          @attr name android:visible
         */
         public static final int SherlockMenuItem_android_visible = 4;
         /** Attributes that can be used with a SherlockMenuView.
@@ -2116,7 +2140,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:headerBackground
+          @attr name rahulapps.apihelp:headerBackground
         */
         public static final int SherlockMenuView_headerBackground = 3;
         /**
@@ -2128,7 +2152,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:horizontalDivider
+          @attr name rahulapps.apihelp:horizontalDivider
         */
         public static final int SherlockMenuView_horizontalDivider = 1;
         /**
@@ -2142,7 +2166,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:itemBackground
+          @attr name rahulapps.apihelp:itemBackground
         */
         public static final int SherlockMenuView_itemBackground = 4;
         /**
@@ -2158,7 +2182,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:itemIconDisabledAlpha
+          @attr name rahulapps.apihelp:itemIconDisabledAlpha
         */
         public static final int SherlockMenuView_itemIconDisabledAlpha = 6;
         /**
@@ -2170,7 +2194,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:itemTextAppearance
+          @attr name rahulapps.apihelp:itemTextAppearance
         */
         public static final int SherlockMenuView_itemTextAppearance = 0;
         /**
@@ -2186,7 +2210,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:preserveIconSpacing
+          @attr name rahulapps.apihelp:preserveIconSpacing
         */
         public static final int SherlockMenuView_preserveIconSpacing = 7;
         /**
@@ -2198,7 +2222,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:verticalDivider
+          @attr name rahulapps.apihelp:verticalDivider
         */
         public static final int SherlockMenuView_verticalDivider = 2;
         /**
@@ -2210,7 +2234,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowAnimationStyle
+          @attr name rahulapps.apihelp:windowAnimationStyle
         */
         public static final int SherlockMenuView_windowAnimationStyle = 5;
         /** Attributes that can be used with a SherlockSearchView.
@@ -2219,9 +2243,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_imeOptions rahulapps.apihelp:android_imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_inputType rahulapps.apihelp:android_inputType}</code></td><td> The input type to set on the query text field.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_maxWidth rahulapps.apihelp:android_maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
+           <tr><td><code>{@link #SherlockSearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
+           <tr><td><code>{@link #SherlockSearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
+           <tr><td><code>{@link #SherlockSearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
            <tr><td><code>{@link #SherlockSearchView_iconifiedByDefault rahulapps.apihelp:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
            <tr><td><code>{@link #SherlockSearchView_queryHint rahulapps.apihelp:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
            </table>
@@ -2239,24 +2263,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>
           @attr description
            The IME options to set on the query text field. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_imeOptions}.
-          @attr name android:android_imeOptions
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#imeOptions}.
+          @attr name android:imeOptions
         */
         public static final int SherlockSearchView_android_imeOptions = 2;
         /**
           <p>
           @attr description
            The input type to set on the query text field. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_inputType}.
-          @attr name android:android_inputType
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#inputType}.
+          @attr name android:inputType
         */
         public static final int SherlockSearchView_android_inputType = 1;
         /**
           <p>
           @attr description
            An optional maximum width of the SearchView. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_maxWidth}.
-          @attr name android:android_maxWidth
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#maxWidth}.
+          @attr name android:maxWidth
         */
         public static final int SherlockSearchView_android_maxWidth = 0;
         /**
@@ -2273,7 +2300,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:iconifiedByDefault
+          @attr name rahulapps.apihelp:iconifiedByDefault
         */
         public static final int SherlockSearchView_iconifiedByDefault = 3;
         /**
@@ -2289,7 +2316,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:queryHint
+          @attr name rahulapps.apihelp:queryHint
         */
         public static final int SherlockSearchView_queryHint = 4;
         /** Attributes that can be used with a SherlockSpinner.
@@ -2298,17 +2325,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownHorizontalOffset rahulapps.apihelp:android_dropDownHorizontalOffset}</code></td><td> Horizontal offset from the spinner widget for positioning the dropdown
+           <tr><td><code>{@link #SherlockSpinner_android_dropDownHorizontalOffset android:dropDownHorizontalOffset}</code></td><td> Horizontal offset from the spinner widget for positioning the dropdown
              in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownSelector rahulapps.apihelp:android_dropDownSelector}</code></td><td> List selector to use for spinnerMode="dropdown" display.</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownVerticalOffset rahulapps.apihelp:android_dropDownVerticalOffset}</code></td><td> Vertical offset from the spinner widget for positioning the dropdown in
+           <tr><td><code>{@link #SherlockSpinner_android_dropDownSelector android:dropDownSelector}</code></td><td> List selector to use for spinnerMode="dropdown" display.</td></tr>
+           <tr><td><code>{@link #SherlockSpinner_android_dropDownVerticalOffset android:dropDownVerticalOffset}</code></td><td> Vertical offset from the spinner widget for positioning the dropdown in
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownWidth rahulapps.apihelp:android_dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_gravity rahulapps.apihelp:android_gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_popupBackground rahulapps.apihelp:android_popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_popupPromptView rahulapps.apihelp:android_popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
+           <tr><td><code>{@link #SherlockSpinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
+           <tr><td><code>{@link #SherlockSpinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
+           <tr><td><code>{@link #SherlockSpinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
+           <tr><td><code>{@link #SherlockSpinner_android_popupPromptView android:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_prompt rahulapps.apihelp:android_prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #SherlockSpinner_android_prompt android:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
            </table>
            @see #SherlockSpinner_android_dropDownHorizontalOffset
            @see #SherlockSpinner_android_dropDownSelector
@@ -2321,23 +2348,25 @@ containing a value of this type.
          */
         public static final int[] SherlockSpinner = {
             0x010100af, 0x01010175, 0x01010176, 0x0101017b,
-            0x01010262, 0x010102ac, 0x010102ad, 0x01010411
+            0x01010262, 0x010102ac, 0x010102ad, 0x0101043d
         };
         /**
           <p>
           @attr description
            Horizontal offset from the spinner widget for positioning the dropdown
              in spinnerMode="dropdown". 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_dropDownHorizontalOffset}.
-          @attr name android:android_dropDownHorizontalOffset
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#dropDownHorizontalOffset}.
+          @attr name android:dropDownHorizontalOffset
         */
         public static final int SherlockSpinner_android_dropDownHorizontalOffset = 5;
         /**
           <p>
           @attr description
            List selector to use for spinnerMode="dropdown" display. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_dropDownSelector}.
-          @attr name android:android_dropDownSelector
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#dropDownSelector}.
+          @attr name android:dropDownSelector
         */
         public static final int SherlockSpinner_android_dropDownSelector = 1;
         /**
@@ -2345,32 +2374,36 @@ containing a value of this type.
           @attr description
            Vertical offset from the spinner widget for positioning the dropdown in
              spinnerMode="dropdown". 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_dropDownVerticalOffset}.
-          @attr name android:android_dropDownVerticalOffset
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#dropDownVerticalOffset}.
+          @attr name android:dropDownVerticalOffset
         */
         public static final int SherlockSpinner_android_dropDownVerticalOffset = 6;
         /**
           <p>
           @attr description
            Width of the dropdown in spinnerMode="dropdown". 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_dropDownWidth}.
-          @attr name android:android_dropDownWidth
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#dropDownWidth}.
+          @attr name android:dropDownWidth
         */
         public static final int SherlockSpinner_android_dropDownWidth = 4;
         /**
           <p>
           @attr description
            Gravity setting for positioning the currently selected item. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_gravity}.
-          @attr name android:android_gravity
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#gravity}.
+          @attr name android:gravity
         */
         public static final int SherlockSpinner_android_gravity = 0;
         /**
           <p>
           @attr description
            Background drawable to use for the dropdown in spinnerMode="dropdown". 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_popupBackground}.
-          @attr name android:android_popupBackground
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#popupBackground}.
+          @attr name android:popupBackground
         */
         public static final int SherlockSpinner_android_popupBackground = 2;
         /**
@@ -2380,15 +2413,16 @@ containing a value of this type.
              spinnerMode="dropdown". This layout must contain a TextView with the id
              @android:id/text1 to be populated with the prompt text. 
           <p>This is a private symbol.
-          @attr name android:android_popupPromptView
+          @attr name android:popupPromptView
         */
         public static final int SherlockSpinner_android_popupPromptView = 7;
         /**
           <p>
           @attr description
            The prompt to display when the spinner's dialog is shown. 
-          <p>This corresponds to the global attribute          resource symbol {@link rahulapps.apihelp.R.attr#android_prompt}.
-          @attr name android:android_prompt
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#prompt}.
+          @attr name android:prompt
         */
         public static final int SherlockSpinner_android_prompt = 3;
         /** Attributes that can be used with a SherlockTheme.
@@ -2565,7 +2599,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarDivider
+          @attr name rahulapps.apihelp:actionBarDivider
         */
         public static final int SherlockTheme_actionBarDivider = 8;
         /**
@@ -2577,7 +2611,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarItemBackground
+          @attr name rahulapps.apihelp:actionBarItemBackground
         */
         public static final int SherlockTheme_actionBarItemBackground = 9;
         /**
@@ -2604,7 +2638,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:actionBarSize
+          @attr name rahulapps.apihelp:actionBarSize
         */
         public static final int SherlockTheme_actionBarSize = 7;
         /**
@@ -2619,7 +2653,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarSplitStyle
+          @attr name rahulapps.apihelp:actionBarSplitStyle
         */
         public static final int SherlockTheme_actionBarSplitStyle = 5;
         /**
@@ -2631,7 +2665,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarStyle
+          @attr name rahulapps.apihelp:actionBarStyle
         */
         public static final int SherlockTheme_actionBarStyle = 4;
         /**
@@ -2641,7 +2675,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionBarTabBarStyle
+          @attr name rahulapps.apihelp:actionBarTabBarStyle
         */
         public static final int SherlockTheme_actionBarTabBarStyle = 1;
         /**
@@ -2653,7 +2687,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarTabStyle
+          @attr name rahulapps.apihelp:actionBarTabStyle
         */
         public static final int SherlockTheme_actionBarTabStyle = 0;
         /**
@@ -2663,7 +2697,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionBarTabTextStyle
+          @attr name rahulapps.apihelp:actionBarTabTextStyle
         */
         public static final int SherlockTheme_actionBarTabTextStyle = 2;
         /**
@@ -2681,7 +2715,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionBarWidgetTheme
+          @attr name rahulapps.apihelp:actionBarWidgetTheme
         */
         public static final int SherlockTheme_actionBarWidgetTheme = 6;
         /**
@@ -2691,7 +2725,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionButtonStyle
+          @attr name rahulapps.apihelp:actionButtonStyle
         */
         public static final int SherlockTheme_actionButtonStyle = 52;
         /**
@@ -2701,7 +2735,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionDropDownStyle
+          @attr name rahulapps.apihelp:actionDropDownStyle
         */
         public static final int SherlockTheme_actionDropDownStyle = 51;
         /**
@@ -2714,7 +2748,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionMenuTextAppearance
+          @attr name rahulapps.apihelp:actionMenuTextAppearance
         */
         public static final int SherlockTheme_actionMenuTextAppearance = 10;
         /**
@@ -2728,7 +2762,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionMenuTextColor
+          @attr name rahulapps.apihelp:actionMenuTextColor
         */
         public static final int SherlockTheme_actionMenuTextColor = 11;
         /**
@@ -2740,7 +2774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionModeBackground
+          @attr name rahulapps.apihelp:actionModeBackground
         */
         public static final int SherlockTheme_actionModeBackground = 14;
         /**
@@ -2750,7 +2784,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionModeCloseButtonStyle
+          @attr name rahulapps.apihelp:actionModeCloseButtonStyle
         */
         public static final int SherlockTheme_actionModeCloseButtonStyle = 13;
         /**
@@ -2762,7 +2796,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionModeCloseDrawable
+          @attr name rahulapps.apihelp:actionModeCloseDrawable
         */
         public static final int SherlockTheme_actionModeCloseDrawable = 16;
         /**
@@ -2774,7 +2808,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionModePopupWindowStyle
+          @attr name rahulapps.apihelp:actionModePopupWindowStyle
         */
         public static final int SherlockTheme_actionModePopupWindowStyle = 18;
         /**
@@ -2786,7 +2820,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionModeShareDrawable
+          @attr name rahulapps.apihelp:actionModeShareDrawable
         */
         public static final int SherlockTheme_actionModeShareDrawable = 17;
         /**
@@ -2798,7 +2832,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:actionModeSplitBackground
+          @attr name rahulapps.apihelp:actionModeSplitBackground
         */
         public static final int SherlockTheme_actionModeSplitBackground = 15;
         /**
@@ -2808,7 +2842,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionModeStyle
+          @attr name rahulapps.apihelp:actionModeStyle
         */
         public static final int SherlockTheme_actionModeStyle = 12;
         /**
@@ -2818,7 +2852,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionOverflowButtonStyle
+          @attr name rahulapps.apihelp:actionOverflowButtonStyle
         */
         public static final int SherlockTheme_actionOverflowButtonStyle = 3;
         /**
@@ -2828,7 +2862,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:actionSpinnerItemStyle
+          @attr name rahulapps.apihelp:actionSpinnerItemStyle
         */
         public static final int SherlockTheme_actionSpinnerItemStyle = 57;
         /**
@@ -2840,7 +2874,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:activatedBackgroundIndicator
+          @attr name rahulapps.apihelp:activatedBackgroundIndicator
         */
         public static final int SherlockTheme_activatedBackgroundIndicator = 65;
         /**
@@ -2852,7 +2886,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:activityChooserViewStyle
+          @attr name rahulapps.apihelp:activityChooserViewStyle
         */
         public static final int SherlockTheme_activityChooserViewStyle = 64;
         /**
@@ -2864,7 +2898,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:buttonStyleSmall
+          @attr name rahulapps.apihelp:buttonStyleSmall
         */
         public static final int SherlockTheme_buttonStyleSmall = 19;
         /**
@@ -2876,7 +2910,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:dividerVertical
+          @attr name rahulapps.apihelp:dividerVertical
         */
         public static final int SherlockTheme_dividerVertical = 50;
         /**
@@ -2886,7 +2920,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:dropDownHintAppearance
+          @attr name rahulapps.apihelp:dropDownHintAppearance
         */
         public static final int SherlockTheme_dropDownHintAppearance = 66;
         /**
@@ -2896,7 +2930,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:dropDownListViewStyle
+          @attr name rahulapps.apihelp:dropDownListViewStyle
         */
         public static final int SherlockTheme_dropDownListViewStyle = 54;
         /**
@@ -2912,7 +2946,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:dropdownListPreferredItemHeight
+          @attr name rahulapps.apihelp:dropdownListPreferredItemHeight
         */
         public static final int SherlockTheme_dropdownListPreferredItemHeight = 56;
         /**
@@ -2922,7 +2956,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:homeAsUpIndicator
+          @attr name rahulapps.apihelp:homeAsUpIndicator
         */
         public static final int SherlockTheme_homeAsUpIndicator = 53;
         /**
@@ -2932,7 +2966,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:listPopupWindowStyle
+          @attr name rahulapps.apihelp:listPopupWindowStyle
         */
         public static final int SherlockTheme_listPopupWindowStyle = 63;
         /**
@@ -2950,7 +2984,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:listPreferredItemHeightSmall
+          @attr name rahulapps.apihelp:listPreferredItemHeightSmall
         */
         public static final int SherlockTheme_listPreferredItemHeightSmall = 44;
         /**
@@ -2968,7 +3002,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:listPreferredItemPaddingLeft
+          @attr name rahulapps.apihelp:listPreferredItemPaddingLeft
         */
         public static final int SherlockTheme_listPreferredItemPaddingLeft = 45;
         /**
@@ -2986,7 +3020,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:listPreferredItemPaddingRight
+          @attr name rahulapps.apihelp:listPreferredItemPaddingRight
         */
         public static final int SherlockTheme_listPreferredItemPaddingRight = 46;
         /**
@@ -2996,7 +3030,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:popupMenuStyle
+          @attr name rahulapps.apihelp:popupMenuStyle
         */
         public static final int SherlockTheme_popupMenuStyle = 55;
         /**
@@ -3008,7 +3042,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchAutoCompleteTextView
+          @attr name rahulapps.apihelp:searchAutoCompleteTextView
         */
         public static final int SherlockTheme_searchAutoCompleteTextView = 30;
         /**
@@ -3020,7 +3054,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchDropdownBackground
+          @attr name rahulapps.apihelp:searchDropdownBackground
         */
         public static final int SherlockTheme_searchDropdownBackground = 31;
         /**
@@ -3038,7 +3072,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name android:searchResultListItemHeight
+          @attr name rahulapps.apihelp:searchResultListItemHeight
         */
         public static final int SherlockTheme_searchResultListItemHeight = 41;
         /**
@@ -3050,7 +3084,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewCloseIcon
+          @attr name rahulapps.apihelp:searchViewCloseIcon
         */
         public static final int SherlockTheme_searchViewCloseIcon = 32;
         /**
@@ -3062,7 +3096,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewEditQuery
+          @attr name rahulapps.apihelp:searchViewEditQuery
         */
         public static final int SherlockTheme_searchViewEditQuery = 36;
         /**
@@ -3074,7 +3108,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewEditQueryBackground
+          @attr name rahulapps.apihelp:searchViewEditQueryBackground
         */
         public static final int SherlockTheme_searchViewEditQueryBackground = 37;
         /**
@@ -3086,7 +3120,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewGoIcon
+          @attr name rahulapps.apihelp:searchViewGoIcon
         */
         public static final int SherlockTheme_searchViewGoIcon = 33;
         /**
@@ -3098,7 +3132,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewSearchIcon
+          @attr name rahulapps.apihelp:searchViewSearchIcon
         */
         public static final int SherlockTheme_searchViewSearchIcon = 34;
         /**
@@ -3110,7 +3144,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewTextField
+          @attr name rahulapps.apihelp:searchViewTextField
         */
         public static final int SherlockTheme_searchViewTextField = 38;
         /**
@@ -3122,7 +3156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewTextFieldRight
+          @attr name rahulapps.apihelp:searchViewTextFieldRight
         */
         public static final int SherlockTheme_searchViewTextFieldRight = 39;
         /**
@@ -3134,7 +3168,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:searchViewVoiceIcon
+          @attr name rahulapps.apihelp:searchViewVoiceIcon
         */
         public static final int SherlockTheme_searchViewVoiceIcon = 35;
         /**
@@ -3146,7 +3180,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:selectableItemBackground
+          @attr name rahulapps.apihelp:selectableItemBackground
         */
         public static final int SherlockTheme_selectableItemBackground = 20;
         /**
@@ -3156,7 +3190,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:spinnerDropDownItemStyle
+          @attr name rahulapps.apihelp:spinnerDropDownItemStyle
         */
         public static final int SherlockTheme_spinnerDropDownItemStyle = 29;
         /**
@@ -3166,7 +3200,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:spinnerItemStyle
+          @attr name rahulapps.apihelp:spinnerItemStyle
         */
         public static final int SherlockTheme_spinnerItemStyle = 28;
         /**
@@ -3178,7 +3212,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceLargePopupMenu
+          @attr name rahulapps.apihelp:textAppearanceLargePopupMenu
         */
         public static final int SherlockTheme_textAppearanceLargePopupMenu = 22;
         /**
@@ -3190,7 +3224,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceListItemSmall
+          @attr name rahulapps.apihelp:textAppearanceListItemSmall
         */
         public static final int SherlockTheme_textAppearanceListItemSmall = 47;
         /**
@@ -3202,7 +3236,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSearchResultSubtitle
+          @attr name rahulapps.apihelp:textAppearanceSearchResultSubtitle
         */
         public static final int SherlockTheme_textAppearanceSearchResultSubtitle = 43;
         /**
@@ -3214,7 +3248,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSearchResultTitle
+          @attr name rahulapps.apihelp:textAppearanceSearchResultTitle
         */
         public static final int SherlockTheme_textAppearanceSearchResultTitle = 42;
         /**
@@ -3226,7 +3260,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSmall
+          @attr name rahulapps.apihelp:textAppearanceSmall
         */
         public static final int SherlockTheme_textAppearanceSmall = 24;
         /**
@@ -3238,7 +3272,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:textAppearanceSmallPopupMenu
+          @attr name rahulapps.apihelp:textAppearanceSmallPopupMenu
         */
         public static final int SherlockTheme_textAppearanceSmallPopupMenu = 23;
         /**
@@ -3253,7 +3287,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:textColorPrimary
+          @attr name rahulapps.apihelp:textColorPrimary
         */
         public static final int SherlockTheme_textColorPrimary = 25;
         /**
@@ -3268,7 +3302,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:textColorPrimaryDisableOnly
+          @attr name rahulapps.apihelp:textColorPrimaryDisableOnly
         */
         public static final int SherlockTheme_textColorPrimaryDisableOnly = 26;
         /**
@@ -3283,7 +3317,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:textColorPrimaryInverse
+          @attr name rahulapps.apihelp:textColorPrimaryInverse
         */
         public static final int SherlockTheme_textColorPrimaryInverse = 27;
         /**
@@ -3297,7 +3331,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
-          @attr name android:textColorSearchUrl
+          @attr name rahulapps.apihelp:textColorSearchUrl
         */
         public static final int SherlockTheme_textColorSearchUrl = 40;
         /**
@@ -3311,7 +3345,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowActionBar
+          @attr name rahulapps.apihelp:windowActionBar
         */
         public static final int SherlockTheme_windowActionBar = 59;
         /**
@@ -3325,7 +3359,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowActionBarOverlay
+          @attr name rahulapps.apihelp:windowActionBarOverlay
         */
         public static final int SherlockTheme_windowActionBarOverlay = 60;
         /**
@@ -3339,7 +3373,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowActionModeOverlay
+          @attr name rahulapps.apihelp:windowActionModeOverlay
         */
         public static final int SherlockTheme_windowActionModeOverlay = 61;
         /**
@@ -3352,7 +3386,7 @@ containing a value of this type.
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:windowContentOverlay
+          @attr name rahulapps.apihelp:windowContentOverlay
         */
         public static final int SherlockTheme_windowContentOverlay = 21;
         /**
@@ -3368,7 +3402,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowMinWidthMajor
+          @attr name rahulapps.apihelp:windowMinWidthMajor
         */
         public static final int SherlockTheme_windowMinWidthMajor = 48;
         /**
@@ -3384,7 +3418,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowMinWidthMinor
+          @attr name rahulapps.apihelp:windowMinWidthMinor
         */
         public static final int SherlockTheme_windowMinWidthMinor = 49;
         /**
@@ -3398,7 +3432,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowNoTitle
+          @attr name rahulapps.apihelp:windowNoTitle
         */
         public static final int SherlockTheme_windowNoTitle = 58;
         /**
@@ -3412,7 +3446,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:windowSplitActionBar
+          @attr name rahulapps.apihelp:windowSplitActionBar
         */
         public static final int SherlockTheme_windowSplitActionBar = 62;
         /** Attributes that can be used with a SherlockView.
@@ -3421,7 +3455,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockView_android_focusable rahulapps.apihelp:android_focusable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SherlockView_android_focusable android:focusable}</code></td><td></td></tr>
            </table>
            @see #SherlockView_android_focusable
          */
@@ -3429,9 +3463,9 @@ containing a value of this type.
             0x010100da
         };
         /**
-          <p>This symbol is the offset where the {@link rahulapps.apihelp.R.attr#android_focusable}
+          <p>This symbol is the offset where the {@link android.R.attr#focusable}
           attribute's value can be found in the {@link #SherlockView} array.
-          @attr name android:android_focusable
+          @attr name android:focusable
         */
         public static final int SherlockView_android_focusable = 0;
     };

@@ -1,22 +1,23 @@
 package rahulapps.apihelp.NavigationDrawer;
 
 
-
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 import rahulapps.apihelp.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class NavigationDrawerMenu extends Activity implements OnItemClickListener
+public class NavigationDrawerMenu extends SherlockActivity implements OnItemClickListener
 {
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
@@ -30,7 +31,7 @@ public class NavigationDrawerMenu extends Activity implements OnItemClickListene
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_menu);
 		
-		getActionBar().setTitle("Navigation Drawer");
+		getSupportActionBar().setTitle("Navigation Drawer");
 		
 		
 		lv=(ListView)findViewById(R.id.Common_ListView);
@@ -66,7 +67,7 @@ public class NavigationDrawerMenu extends Activity implements OnItemClickListene
 	{
 		// TODO Auto-generated method stub
 		super.onCreateOptionsMenu(menu);
-		MenuInflater menuInflater = getMenuInflater();
+		MenuInflater menuInflater = getSupportMenuInflater();
 		menuInflater.inflate( R.menu.common_menu, menu);
 		return true;
 	}

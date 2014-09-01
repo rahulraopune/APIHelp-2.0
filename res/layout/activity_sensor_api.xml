@@ -6,7 +6,7 @@
 	android:id="@+id/ABC" >
 
     <TextView
-    	android:id="@+id/textView1"
+    	android:id="@+id/tvsqliteoutput"
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
     	android:text="Shake The Device to get a Toast"

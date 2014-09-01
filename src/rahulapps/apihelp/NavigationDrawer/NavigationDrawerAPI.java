@@ -1,12 +1,11 @@
 package rahulapps.apihelp.NavigationDrawer;
 
 
-import com.actionbarsherlock.app.SherlockActivity;
-
 import rahulapps.apihelp.R;
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.graphics.Color;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout.DrawerListener;
@@ -17,7 +16,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class NavigationDrawerAPI extends SherlockActivity implements OnItemClickListener, DrawerListener 
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+
+public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnItemClickListener, DrawerListener 
 {
 	
 	
@@ -42,7 +43,7 @@ public class NavigationDrawerAPI extends SherlockActivity implements OnItemClick
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,planets);
 		listView.setAdapter(adapter);
 		
-		//drawerlistener = new ActionBarDrawerToggle(this, drawerLayout , R.drawable.ic_action_view_as_list,R.drawable.ic_action_view_as_list,R.drawable.ic_action_view_as_list);
+		drawerlistener = new ActionBarDrawerToggle(this, drawerLayout , R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher);
 		
 		listView.setOnItemClickListener(this);
 		drawerLayout.setDrawerListener(this);
@@ -55,11 +56,9 @@ public class NavigationDrawerAPI extends SherlockActivity implements OnItemClick
 		listView.setItemChecked(position, true);
 		int APIlevel = Build.VERSION.SDK_INT;
 		Toast.makeText(this, planets[position]+" Planet Clicked \n API: "+APIlevel, Toast.LENGTH_LONG).show();
-		if(APIlevel>=11)
-		{
+		
 			getSupportActionBar().setTitle(planets[position]);
-			
-		}
+		
 	}
 
 	@Override
@@ -103,3 +102,46 @@ public class NavigationDrawerAPI extends SherlockActivity implements OnItemClick
 	
 
 }
+
+
+
+/*public class NavigationDrawerAPI extends SherlockFragmentActivity
+{
+	
+	
+	String sMenu[]={"Bluetooth",
+			"Wifi",
+			"Sensor",
+			"Splash Activity",
+			"List Activity",
+			"Speech Recognition",
+			"Drawing Graphs",
+			"Notifications",
+			"File IO",
+			"Email",
+			"Camera"};
+
+	Context context;
+	ListView lv;
+	DrawerLayout drawerlLayout;
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_navigationdrawer);
+		
+		lv = (ListView)findViewById(R.id.drawerListView);
+		drawerlLayout = (DrawerLayout)findViewById(R.id.NavigationDrawer);
+		
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,sMenu);
+		lv.setAdapter(adapter);
+		
+		
+		
+	}
+
+
+}
+*/

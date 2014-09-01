@@ -49,8 +49,6 @@ public class SQLiteBackendCode extends SherlockActivity
 			t.show();
 		}
 		
-		
 	}
-	
 	
 }

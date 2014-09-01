@@ -22,7 +22,7 @@ public class SQLiteMenu extends SherlockActivity implements OnItemClickListener
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
 	
-	String sMenu[]={"SQLite API","SQLite Front-End Code","SQLite Back-End Code"};
+	String sMenu[]={"SQLite API","SQLite Front-End Code","SQLite Back-End Code","Output"};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
@@ -49,6 +49,7 @@ public class SQLiteMenu extends SherlockActivity implements OnItemClickListener
 		case 0:ActivityStarter("rahulapps.apihelp.SQLite.SQLiteFrontEnd");break;
 		case 1:ActivityStarter("rahulapps.apihelp.SQLite.SQLiteFrontendCode");break;
 		case 2:ActivityStarter("rahulapps.apihelp.SQLite.SQLiteBackendCode");break;
+		
 		}
 	}
 	

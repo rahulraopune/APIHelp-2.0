@@ -13,7 +13,7 @@
         android:text="Bluetooth" />
 
     <TextView
-    	android:id="@+id/textView1"
+    	android:id="@+id/tvsqliteoutput"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:layout_above="@+id/BluetoothAPI_Switch"
@@ -21,14 +21,5 @@
     	android:layout_marginBottom="74dp"
     	android:text="BLUETOOTH API"
     	android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <ToggleButton
-        android:id="@+id/tbBluetooth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/BluetoothAPI_Switch"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="ToggleButton" />
 
 </RelativeLayout>

@@ -5,6 +5,7 @@ import com.actionbarsherlock.app.SherlockActivity;
 import rahulapps.apihelp.R;
 import rahulapps.apihelp.SQLite.RahulDatabaseAdapter.RahulHelper;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -63,6 +64,8 @@ public class SQLiteFrontEnd extends SherlockActivity implements OnClickListener
     {
     	RahulDatabaseAdapter adapter = new RahulDatabaseAdapter(this);
     	adapter.displayData();
+    	Intent intent = new Intent("rahulapps.apihelp.SQLite.SQLiteOutput");
+		startActivity(intent);    	
     }
     
     public void searchresults()
