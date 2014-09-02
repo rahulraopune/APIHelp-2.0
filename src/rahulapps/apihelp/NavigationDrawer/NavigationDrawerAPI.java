@@ -3,8 +3,8 @@ package rahulapps.apihelp.NavigationDrawer;
 
 import rahulapps.apihelp.R;
 
+import android.content.res.Configuration;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
@@ -15,19 +15,18 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.MenuItem;
 
-public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnItemClickListener, DrawerListener 
-{
-	
-	
-	DrawerLayout drawerLayout;
+public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnItemClickListener 
+{	
 	ListView listView;
-	String[] planets ;
-	ActionBarDrawerToggle drawerlistener;
-	int counter = 1;
+	ActionBarDrawerToggle actionBarDrawerToggle;
+	DrawerLayout drawerLayout;
+	ArrayAdapter<String> arrayAdapter;
+	int counter = 0;
+	String planets[];
 	
 	
 	@Override
@@ -36,83 +35,105 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_navigationdrawer);
 		
-		//getSupportActionBar().setTitle("--> --> --> PULL --> -->");
-		
-		drawerLayout = (DrawerLayout)findViewById(R.id.NavigationDrawer);
 		listView = (ListView)findViewById(R.id.drawerListView);
+		drawerLayout = (DrawerLayout)findViewById(R.id.NavigationDrawer);
+		
 		planets = getResources().getStringArray(R.array.temp);
 		
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,planets);
-		listView.setAdapter(adapter);
+		arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,planets);
 		
-		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+		listView.setAdapter(arrayAdapter);
 		
+		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow,GravityCompat.START);
 		
-		getSupportActionBar().setDisplayShowHomeEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
-		
-		drawerlistener = new ActionBarDrawerToggle(NavigationDrawerAPI.this, drawerLayout , R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close);
-		
-		
+		//creating object for toggling
+		actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close)
+		{
+			@Override
+			public void onDrawerOpened(View drawerView)
+			{
+				// TODO Auto-generated method stub
+				super.onDrawerOpened(drawerView);
+				counter++;
+				if(counter % 2 == 0)
+				{
+					listView.setBackgroundColor(Color.rgb(0, 255, 255));
+				}
+				if(counter % 5 == 0)
+				{
+					listView.setBackgroundColor(Color.rgb(100, 45, 105));
+				}
+				else
+				{
+					listView.setBackgroundColor(Color.rgb(255,178,37));
+				}
+			}
+			
+			@Override
+			public void onDrawerClosed(View drawerView)
+			{
+				// TODO Auto-generated method stub
+				super.onDrawerClosed(drawerView);
+				
+			}
+			
+			
+		};
+		drawerLayout.setDrawerListener(actionBarDrawerToggle);
 		
 		listView.setOnItemClickListener(this);
-		drawerLayout.setDrawerListener(this);
-	}
-
-	@Override
-	public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-		// TODO Auto-generated method stub
 		
-		listView.setItemChecked(position, true);
-		int APIlevel = Build.VERSION.SDK_INT;
-		Toast.makeText(this, planets[position]+" Planet Clicked \n API: "+APIlevel, Toast.LENGTH_LONG).show();
 		
-			getSupportActionBar().setTitle(planets[position]);
+		//for icons in corner
 		
+		//for functions like onclose onopen
+		//drawerLayout.setDrawerListener(this);	
 	}
-
-	@Override
-	public void onDrawerClosed(View arg0) {
-		// TODO Auto-generated method stub
-		//Toast.makeText(this,"onDrawerClosed() ", Toast.LENGTH_SHORT).show();
-		
-	}
-
-	@Override
-	public void onDrawerOpened(View arg0) {
-		// TODO Auto-generated method stub
-		counter++;
-		if(counter%2==0)
-		{
-			listView.setBackgroundColor(Color.rgb(37,114,255));
-		}
-		if(counter%3==0)
-		{
-			listView.setBackgroundColor(Color.rgb(183,255,255));
-		}
-		if(counter%5==0)
-		{
-			listView.setBackgroundColor(Color.rgb(255,153,255));
-		}
-	}
-
-	@Override
-	public void onDrawerSlide(View arg0, float arg1) {
-		// TODO Auto-generated method stub
-		//Toast.makeText(this,"onDrawerSlide() ", Toast.LENGTH_SHORT).show();
-		getSupportActionBar().setTitle("Navigation Drawer");
-	}
-
-	@Override
-	public void onDrawerStateChanged(int arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
 	
-
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState)
+	{
+		// TODO Auto-generated method stub
+		super.onPostCreate(savedInstanceState);
+		actionBarDrawerToggle.syncState();
+	}
+	
+	@Override
+	public void onConfigurationChanged(Configuration newConfig)
+	{
+		// TODO Auto-generated method stub
+		super.onConfigurationChanged(newConfig);
+		actionBarDrawerToggle.onConfigurationChanged(newConfig);
+	}
+	
+	@Override
+	public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3)
+	{
+		// TODO Auto-generated method stub
+		getSupportActionBar().setTitle(planets[position]);
+		
+		
+	}
+	
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		// TODO Auto-generated method stub
+		if(item.getItemId() == android.R.id.home)
+		{
+			if(drawerLayout.isDrawerOpen(listView))
+			{
+				drawerLayout.closeDrawer(listView);
+				getSupportActionBar().setTitle("Navigation Drawer");
+			}
+			else
+			{
+				drawerLayout.openDrawer(listView);
+			}
+		}
+		
+		return super.onOptionsItemSelected(item);
+	}
 }
-
-
-

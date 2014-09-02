@@ -56,8 +56,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		lv.setAdapter(arrayadapter);
 		
 		getSupportActionBar().setTitle("APIHelp 2.0");
-		getSupportActionBar().setHomeButtonEnabled(true);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		
 		
 		
 		lv.setOnItemClickListener(this);

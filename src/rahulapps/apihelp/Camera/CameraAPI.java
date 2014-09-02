@@ -2,8 +2,6 @@ package rahulapps.apihelp.Camera;
 
 import java.io.IOException;
 
-import com.actionbarsherlock.app.SherlockActivity;
-
 import rahulapps.apihelp.R;
 
 import android.app.Activity;
@@ -40,7 +38,7 @@ public class CameraAPI extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera);
 		
-		getActionBar().setTitle("Camera");
+		//getActionBar().setTitle("Camera");
 		
 		iv = (ImageView)findViewById(R.id.IMAGEVIEW_CAMERA);
 		bClick = (Button)findViewById(R.id.BUTTON_PHOTO_CLICK);
@@ -101,6 +99,3 @@ public class CameraAPI extends Activity implements OnClickListener
 	}
 	
 }
-	
-	
-	
