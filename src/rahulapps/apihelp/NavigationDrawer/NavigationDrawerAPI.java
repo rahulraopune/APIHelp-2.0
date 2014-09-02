@@ -2,11 +2,12 @@ package rahulapps.apihelp.NavigationDrawer;
 
 
 import rahulapps.apihelp.R;
-import android.content.Context;
+
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout.DrawerListener;
 import android.view.View;
@@ -35,15 +36,25 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_navigationdrawer);
 		
-		getSupportActionBar().setTitle("--> --> --> PULL --> -->");
+		//getSupportActionBar().setTitle("--> --> --> PULL --> -->");
 		
 		drawerLayout = (DrawerLayout)findViewById(R.id.NavigationDrawer);
 		listView = (ListView)findViewById(R.id.drawerListView);
 		planets = getResources().getStringArray(R.array.temp);
+		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,planets);
 		listView.setAdapter(adapter);
 		
-		drawerlistener = new ActionBarDrawerToggle(this, drawerLayout , R.drawable.ic_launcher,R.drawable.ic_launcher,R.drawable.ic_launcher);
+		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+		
+		
+		getSupportActionBar().setDisplayShowHomeEnabled(true);
+		getSupportActionBar().setHomeButtonEnabled(true);
+		
+		
+		drawerlistener = new ActionBarDrawerToggle(NavigationDrawerAPI.this, drawerLayout , R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close);
+		
+		
 		
 		listView.setOnItemClickListener(this);
 		drawerLayout.setDrawerListener(this);
@@ -105,43 +116,3 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 
 
 
-/*public class NavigationDrawerAPI extends SherlockFragmentActivity
-{
-	
-	
-	String sMenu[]={"Bluetooth",
-			"Wifi",
-			"Sensor",
-			"Splash Activity",
-			"List Activity",
-			"Speech Recognition",
-			"Drawing Graphs",
-			"Notifications",
-			"File IO",
-			"Email",
-			"Camera"};
-
-	Context context;
-	ListView lv;
-	DrawerLayout drawerlLayout;
-	
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState)
-	{
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_navigationdrawer);
-		
-		lv = (ListView)findViewById(R.id.drawerListView);
-		drawerlLayout = (DrawerLayout)findViewById(R.id.NavigationDrawer);
-		
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,sMenu);
-		lv.setAdapter(adapter);
-		
-		
-		
-	}
-
-
-}
-*/

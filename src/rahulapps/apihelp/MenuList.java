@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -21,6 +22,8 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 {
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
+	
+	
 	
 	String sMenu[]={"Bluetooth",
 					"Wifi",
@@ -53,6 +56,8 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		lv.setAdapter(arrayadapter);
 		
 		getSupportActionBar().setTitle("APIHelp 2.0");
+		getSupportActionBar().setHomeButtonEnabled(true);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		
 		lv.setOnItemClickListener(this);

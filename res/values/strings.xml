@@ -17,5 +17,8 @@
         <item >Pluto</item>
     </string-array>
     
+	<string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
+    
 	
 </resources>
