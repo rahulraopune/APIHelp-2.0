@@ -44,7 +44,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 					"Custom ListView",
 					"Grid View",
 					"Custom Toast Message",
-					"ManiFest.XML"};
+					"Manifest.xml"};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
@@ -130,12 +130,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 			finish();
 			break;
 		}
-		return false;
-	
-		
+		return false;	
 	}
-	
-	
-	
 	
 }

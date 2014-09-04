@@ -1,9 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+
+    <ScrollView
+    	android:id="@+id/scrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:orientation="vertical" >
 
     <EditText
         android:id="@+id/EDITTEXT_EMAIL"
@@ -14,16 +25,6 @@
         android:layout_marginTop="15dp"
         android:ems="10"
         android:inputType="textEmailAddress" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/EDITTEXT_EMAIL"
-        android:layout_below="@+id/EDITTEXT_EMAIL"
-        android:layout_marginTop="30dp"
-        android:text="Person Name"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
         android:id="@+id/EDITTEXT_NAME"
@@ -60,18 +61,39 @@
     <EditText
         android:id="@+id/EDITTEXT_BODY"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/EDITTEXT_NAME"
         android:layout_below="@+id/textView3"
         android:ems="10"
         android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EDITTEXT_EMAIL"
+        android:layout_below="@+id/EDITTEXT_EMAIL"
+        android:layout_marginTop="28dp"
+        android:text="Person Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
         android:id="@+id/BUTTON_DONE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/EDITTEXT_BODY"
+        android:layout_below="@+id/EDITTEXT_BODY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
         android:text="Done" />
 
+</RelativeLayout>
+    
+
+
+
+
+        
+    	
+        </ScrollView>
+    
 </RelativeLayout>

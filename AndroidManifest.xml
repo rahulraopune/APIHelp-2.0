@@ -3,10 +3,12 @@
 	package="rahulapps.apihelp"
 	android:versionCode="1"
 	android:versionName="2.0" >
-
+	
+    
 	<uses-sdk
-		android:minSdkVersion="9"
+		android:minSdkVersion="8"
 		android:targetSdkVersion="17" />
+
 	
 	<uses-permission android:name="android.permission.BLUETOOTH"/>
 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
@@ -343,7 +345,8 @@
 		<!--Comment-->
 		<activity
 			android:name="rahulapps.apihelp.Settings.CommentAPI"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Settings.CommentAPI" />
 
@@ -530,7 +533,8 @@
 		<!--Email API-->
 		<activity
 			android:name="rahulapps.apihelp.Email.EmailAPI"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Email.EmailAPI" />
 
@@ -674,7 +678,19 @@
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
-		</activity> 
+		</activity>
+		
+		<!--SQLite OUTPUT Code-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteOutputCode"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteOutputCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
 			
 		<!--SQLite Front-End-->
 		<activity

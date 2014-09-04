@@ -4,5 +4,6 @@
     <issue id="NewApi">
         <ignore path="src/rahulapps/apihelp/Bluetooth/BluetoothAPI.java" />
         <ignore path="src/rahulapps/apihelp/Camera/CameraAPI.java" />
+        <ignore path="src/rahulapps/apihelp/Wifi/WifiAPI.java" />
     </issue>
 </lint>

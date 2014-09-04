@@ -48,7 +48,7 @@ public class CommentAPI extends SherlockActivity implements OnClickListener
 			sBody = etBody.getText().toString();
 			
 			
-			String body = "Hey Wassap I am"+sName+","+"\n"+sBody+"\n"+"Bye";
+			String body = "Hey Wassap I am "+sName+","+"\n"+sBody+"\n"+"Bye";
 			
 			
 			Uri emailuri = Uri.fromParts("mailto","rahulraopune@gmail.com",null);

@@ -1,12 +1,18 @@
+<!-- The Enteries of java files of the Application must be regeistered here-->
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="rahulapps.apihelp"
 	android:versionCode="1"
-	android:versionName="1.0" >
-
+	android:versionName="2.0" >
+	
+    
 	<uses-sdk
-		android:minSdkVersion="11"
+		android:minSdkVersion="8"
 		android:targetSdkVersion="17" />
+
+	
 	<uses-permission android:name="android.permission.BLUETOOTH"/>
 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -23,18 +29,9 @@
 		android:allowBackup="true"
 		android:icon="@drawable/ic_launcher"
 		android:label="@string/app_name"
-		android:theme="@style/AppTheme" >
+		android:theme="@style/Theme.Sherlock" >
 		
-		<!-- SPLASH ACTIVITY -->
-		<activity
-			android:name="rahulapps.apihelp.Splash"
-			android:label="@string/app_name" >
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
+		
 		
 		
 		
@@ -43,9 +40,9 @@
 			android:name="rahulapps.apihelp.MenuList"
 			android:label="@string/app_name" >
 			<intent-filter>
-				<action android:name="rahulapps.apihelp.MenuList" />
+				<action android:name="android.intent.action.MAIN" />
 
-				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
 		
@@ -80,7 +77,9 @@
 		
 		<activity
 			android:name="rahulapps.apihelp.Bluetooth.BluetoothCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Bluetooth.BluetoothCode" />
 
@@ -115,7 +114,8 @@
 			<!-- WIFI CODE -->
 		<activity
 			android:name="rahulapps.apihelp.Wifi.WifiCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Wifi.WifiCode" />
 
@@ -160,7 +160,8 @@
 		<!-- Sensor Accelerometer Code-->
 		<activity
 			android:name="rahulapps.apihelp.Sensor.SensorAccelerometerCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Sensor.SensorAccelerometerCode" />
 
@@ -196,7 +197,8 @@
 		<!-- Sensor Proximity Code-->
 		<activity
 			android:name="rahulapps.apihelp.Sensor.SensorProximityCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Sensor.SensorProximityCode" />
 
@@ -230,7 +232,8 @@
 		<!-- SplashActivity Code-->
 		<activity
 			android:name="rahulapps.apihelp.SplashActivity.SplashCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.SplashActivity.SplashCode" />
 
@@ -264,7 +267,8 @@
 		<!-- MenuActivity Code-->
 		<activity
 			android:name="rahulapps.apihelp.Menus.MenuActivityCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Menus.MenuActivityCode" />
 
@@ -298,7 +302,8 @@
 		<!-- Speech Recognition Code-->
 		<activity
 			android:name="rahulapps.apihelp.Speech.SpeechRecognitionCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Speech.SpeechRecognitionCode" />
 
@@ -332,7 +337,8 @@
 		<!--Comment-->
 		<activity
 			android:name="rahulapps.apihelp.Settings.CommentAPI"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Settings.CommentAPI" />
 
@@ -401,7 +407,8 @@
 		<!--Sine Code-->
 		<activity
 			android:name="rahulapps.apihelp.Graphs.SineCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Graphs.SineCode" />
 
@@ -412,7 +419,8 @@
 		<!--Tan Code-->
 		<activity
 			android:name="rahulapps.apihelp.Graphs.TanCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Graphs.TanCode" />
 
@@ -459,7 +467,8 @@
 		<!--Notification Code-->
 		<activity
 			android:name="rahulapps.apihelp.Notifications.NotificationCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Notifications.NotificationCode" />
 
@@ -493,7 +502,8 @@
 		<!--File IO Code-->
 		<activity
 			android:name="rahulapps.apihelp.FileIO.FileIOCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.FileIO.FileIOCode" />
 
@@ -515,7 +525,8 @@
 		<!--Email API-->
 		<activity
 			android:name="rahulapps.apihelp.Email.EmailAPI"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Email.EmailAPI" />
 
@@ -526,7 +537,8 @@
 		<!--Email Code-->
 		<activity
 			android:name="rahulapps.apihelp.Email.EmailCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name" 
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Email.EmailCode" />
 
@@ -570,7 +582,8 @@
 		<!--Camera Code-->
 		<activity
 			android:name="rahulapps.apihelp.Camera.CameraCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Camera.CameraCode" />
 
@@ -592,7 +605,8 @@
 		<!--Custom List View Row XML -->
 		<activity
 			android:name="rahulapps.apihelp.CustomListView.CustomListViewViewXML"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewViewXML" />
 
@@ -603,7 +617,8 @@
 		<!--Custom List View Layout XML-->
 		<activity
 			android:name="rahulapps.apihelp.CustomListView.CustomListViewLayoutXML"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewLayoutXML" />
 
@@ -614,7 +629,8 @@
 		<!--Custom List View Code-->
 		<activity
 			android:name="rahulapps.apihelp.CustomListView.CustomListViewCode"
-			android:label="@string/app_name" >
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light" >
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewCode" />
 
@@ -625,8 +641,8 @@
 		<!--Custom List View api-->
 		<activity
 			android:name="rahulapps.apihelp.CustomListView.CustomListViewAPI"
-			android:label="@string/app_name"
-			android:theme="@android:style/Theme.Black">
+			android:label="@string/app_name">
+			
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.CustomListView.CustomListViewAPI" />
 
@@ -644,6 +660,17 @@
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>		
+		
+ 	    <!--SQLite OUTPUT-->
+		<activity
+			android:name="rahulapps.apihelp.SQLite.SQLiteOutput"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.SQLite.SQLiteOutput" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity> 
 			
 		<!--SQLite Front-End-->
 		<activity
@@ -670,7 +697,8 @@
 		<!--SQLite Front-End Code-->
 		<activity
 			android:name="rahulapps.apihelp.SQLite.SQLiteFrontendCode"
-			android:label="@string/app_name">
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.SQLite.SQLiteFrontendCode" />
 
@@ -681,20 +709,198 @@
 		<!--SQLite Back-End Code-->
 		<activity
 			android:name="rahulapps.apihelp.SQLite.SQLiteBackendCode"
-			android:label="@string/app_name">
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.SQLite.SQLiteBackendCode" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
-		</activity>			
-													
+		</activity>	
+		
+		
+		<!--Navigation Drawer API-->
+		<activity
+			android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerAPI"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Navigation Drawer Menu-->
+		<activity
+			android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerMenu"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Navigation Drawer XML-->
+		<activity
+			android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Navigation Drawer Code-->
+		<activity
+			android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerCode"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.NavigationDrawer.NavigationDrawerCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom Toast Menu-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastMenu"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom Toast API-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastAPI"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom Toast Layout-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastLayoutXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastLayoutXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>		
+		
+		<!--Custom Toast View-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastViewXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastViewXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom Toast ToastView-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastToastViewXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastToastViewXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Custom Toast Code-->
+		<activity
+			android:name="rahulapps.apihelp.CustomToast.CustomToastCode"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.CustomToast.CustomToastCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<!--Grid View Menu-->
+		<activity
+			android:name="rahulapps.apihelp.GridView.GridViewMenu"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.GridView.GridViewMenu" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	    <!--Grid View API-->
+		<activity
+			android:name="rahulapps.apihelp.GridView.GridViewAPI"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.GridView.GridViewAPI" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	    <!--Grid View Layout XML-->
+		<activity
+			android:name="rahulapps.apihelp.GridView.GridViewLayoutXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.GridView.GridViewLayoutXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	    <!--Grid View Row XML-->
+		<activity
+			android:name="rahulapps.apihelp.GridView.GridViewRowXML"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.GridView.GridViewRowXML" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<!--Grid View Code-->
+		<activity
+			android:name="rahulapps.apihelp.GridView.GridViewCode"
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
+			<intent-filter>
+				<action android:name="rahulapps.apihelp.GridView.GridViewCode" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>											
 	
 	
 		<!--Manifest Code-->
 		<activity
 			android:name="rahulapps.apihelp.Manifest.ManifestCode"
-			android:label="@string/app_name">
+			android:label="@string/app_name"
+			android:theme="@style/Theme.Sherlock.Light">
 			<intent-filter>
 				<action android:name="rahulapps.apihelp.Manifest.ManifestCode" />
 
