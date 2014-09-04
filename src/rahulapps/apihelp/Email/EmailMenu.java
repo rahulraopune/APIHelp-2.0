@@ -32,7 +32,7 @@ public class EmailMenu extends SherlockActivity implements OnItemClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_menu);
 		
-		getActionBar().setTitle("Email");
+		getSupportActionBar().setTitle("Email");
 		
 		lv=(ListView)findViewById(R.id.Common_ListView);
 		

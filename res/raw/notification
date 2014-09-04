@@ -22,6 +22,8 @@ public class NotificationAPI extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_notification);
 		
+		getActionBar
+		
 		bNotification = (Button)findViewById(R.id.BUTTON_NOTIFICATION);
 		bNotification.setOnClickListener(this);
 		

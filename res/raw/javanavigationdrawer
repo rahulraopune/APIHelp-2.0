@@ -1,5 +1,6 @@
 package rahulapps.apihelp.NavigationDrawer;
 
+
 import rahulapps.apihelp.R;
 
 import android.content.res.Configuration;
@@ -14,11 +15,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.view.MenuItem;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.view.MenuItem;
-
-public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnItemClickListener, DrawerListener
+public class NavigationDrawerAPI extends Activity implements OnItemClickListener, DrawerListener
 {
 	
 	ListView listView;
@@ -46,8 +45,8 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 		
 		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow,GravityCompat.START);
 		
-		getSupportActionBar().setHomeButtonEnabled(true);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setHomeButtonEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		//creating object for toggling
 		actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close);
@@ -81,7 +80,7 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 	public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3)
 	{
 		// TODO Auto-generated method stub
-		getSupportActionBar().setTitle(planets[position]);
+		getActionBar().setTitle(planets[position]);
 		
 		
 	}
@@ -106,7 +105,7 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 	public void onDrawerClosed(View arg0)
 	{
 		// TODO Auto-generated method stub
-		getSupportActionBar().setTitle("Navigation Drawer");
+		getActionBar().setTitle("Navigation Drawer");
 	}
 
 	@Override
@@ -138,7 +137,7 @@ public class NavigationDrawerAPI extends SherlockFragmentActivity implements OnI
 			if(drawerLayout.isDrawerOpen(listView))
 			{
 				drawerLayout.closeDrawer(listView);
-				getSupportActionBar().setTitle("Navigation Drawer");
+				getActionBar().setTitle("Navigation Drawer");
 			}
 			else
 			{

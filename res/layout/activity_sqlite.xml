@@ -3,15 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
+    
 
-    <EditText
-        android:id="@+id/etUserName"
+    <ScrollView
+    	android:id="@+id/scrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+        
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tvUserName"
-        android:layout_below="@+id/tvUserName"
-        android:layout_marginTop="20dp"
-        android:ems="10" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/bInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPassword"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/etPassword"
+        android:text="Insert" />
 
     <Button
         android:id="@+id/bShowDetails"
@@ -19,79 +40,71 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/bInsert"
-        android:onClick="showresults"
-        android:text="Show Details" />
-
-    <Button
-        android:id="@+id/bSearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:text="Search" />
-
-    <Button
-        android:id="@+id/bInsert"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:layout_below="@+id/etPassword"
-        android:text="Insert" />
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="17dp"
-        android:ems="10" />
-
-    <TextView
-        android:id="@+id/tvsqliteoutput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bShowDetails"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="Specified Search"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:layout_marginTop="28dp"
+        android:text="Show Details" />
 
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/bSearch"
-        android:layout_alignLeft="@+id/tvsqliteoutput"
-        android:layout_alignRight="@+id/etPassword"
-        android:layout_marginBottom="14dp"
-        android:ems="10" >
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="23dp"
+        android:ems="10" />
 
-        <requestFocus />
-    </EditText>
-
-    <TextView
-        android:id="@+id/tvUserName"
+    <Button
+        android:id="@+id/bSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tvsqliteoutput"
-        android:layout_alignParentTop="true"
-        android:text="UserName"
+        android:layout_alignBaseline="@+id/etSearch"
+        android:layout_alignBottom="@+id/etSearch"
+        android:layout_alignParentRight="true"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/bInsert"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etUserName"
+        android:layout_marginTop="16dp"
+        android:text="Password"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="16dp"
+        android:ems="10" >
+    </EditText>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/etUserName"
-        android:layout_below="@+id/etUserName"
-        android:layout_marginTop="14dp"
-        android:text="PassWord"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bShowDetails"
+        android:layout_marginTop="20dp"
+        android:text="Specific Search"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
-
-
+    	
+        
+    	
+        </ScrollView>
+    
+</RelativeLayout>

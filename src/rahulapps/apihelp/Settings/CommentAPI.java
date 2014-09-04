@@ -26,10 +26,10 @@ public class CommentAPI extends SherlockActivity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_comment);
 		getSupportActionBar().setTitle("Comment/Suggest");
-		bDone = (Button)findViewById(R.id.BUTTON_COMMENT_DONE);
-		etBody = (EditText)findViewById(R.id.EDITTEXT_COMMENT_BODY);
-		etName = (EditText)findViewById(R.id.EDITTEXT_COMMENT_NAME);
-		etSubject = (EditText)findViewById(R.id.EDITTEXT_COMMENT_SUBJECT);
+		bDone = (Button)findViewById(R.id.BUTTON_DONE);
+		etBody = (EditText)findViewById(R.id.EDITTEXT_BODY);
+		etName = (EditText)findViewById(R.id.EDITTEXT_NAME);
+		etSubject = (EditText)findViewById(R.id.EDITTEXT_BODY);
 		
 		bDone.setOnClickListener(this);
 	}
@@ -41,7 +41,7 @@ public class CommentAPI extends SherlockActivity implements OnClickListener
 		// TODO Auto-generated method stub
 		switch(v.getId())
 		{
-		case R.id.BUTTON_COMMENT_DONE:
+		case R.id.BUTTON_DONE:
 			
 			sName = etName.getText().toString();
 			sSubject = etSubject.getText().toString();

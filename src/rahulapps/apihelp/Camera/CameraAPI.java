@@ -2,6 +2,8 @@ package rahulapps.apihelp.Camera;
 
 import java.io.IOException;
 
+import com.actionbarsherlock.app.SherlockActivity;
+
 import rahulapps.apihelp.R;
 
 import android.app.Activity;
@@ -17,7 +19,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class CameraAPI extends Activity implements OnClickListener
+public class CameraAPI extends SherlockActivity implements OnClickListener
 {
 	ImageView iv;
 	Button bClick,bSetAsWallpaper;
@@ -38,7 +40,7 @@ public class CameraAPI extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera);
 		
-		//getActionBar().setTitle("Camera");
+		getSupportActionBar().setTitle("Camera");
 		
 		iv = (ImageView)findViewById(R.id.IMAGEVIEW_CAMERA);
 		bClick = (Button)findViewById(R.id.BUTTON_PHOTO_CLICK);
@@ -67,7 +69,7 @@ public class CameraAPI extends Activity implements OnClickListener
 				WallpaperManager wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
 				
 				Point size = new Point();
-				//getWindowManager().getDefaultDisplay().getSize(size);
+				getWindowManager().getDefaultDisplay().getSize(size);
 				wallpaperManager.suggestDesiredDimensions(size.x,size.y);
 				
 				wallpaperManager.setBitmap(bmp);

@@ -45,6 +45,7 @@ public class CustomToastAPI extends SherlockActivity implements OnItemClickListe
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
 		// TODO Auto-generated method stub
+		//CUSTOM LIST VIEW
 		LayoutInflater layoutInflaterToast = getLayoutInflater();
 		
 		View layoutToast = layoutInflaterToast.inflate(R.layout.activity_customtoast_toast_view,(ViewGroup) findViewById(R.id.customtoastlayout));

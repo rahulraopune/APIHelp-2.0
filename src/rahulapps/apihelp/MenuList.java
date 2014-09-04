@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.widget.DrawerLayout;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -22,6 +23,8 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 {
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
+	
+	DrawerLayout dl;
 	
 	
 	
@@ -79,7 +82,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		case 7:ActivityStarter("rahulapps.apihelp.Notifications.NotificationMenu");break;
 		case 8:ActivityStarter("rahulapps.apihelp.FileIO.FileIOMenu");break;
 		case 9:ActivityStarter("rahulapps.apihelp.Email.EmailMenu");break;
-		//case 10:ActivityStarter("rahulapps.apihelp.Camera.CameraMenu");break;
+		case 10:ActivityStarter("rahulapps.apihelp.Camera.CameraMenu");break;
 		case 11:ActivityStarter("rahulapps.apihelp.SQLite.SQLiteMenu");break;
 		case 12:ActivityStarter("rahulapps.apihelp.NavigationDrawer.NavigationDrawerMenu");break;
 		case 13:ActivityStarter("rahulapps.apihelp.CustomListView.CustomListViewMenu");break;
@@ -128,6 +131,8 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 			break;
 		}
 		return false;
+	
+		
 	}
 	
 	

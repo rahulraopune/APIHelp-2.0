@@ -28,6 +28,7 @@ public class MainActivity extends Activity
         CustomAdapter adapter = new CustomAdapter(this, sHeadings, sSubHeadings, iImgArray);
         lv.setAdapter(adapter);
         
+        
     }
     
 }
@@ -48,21 +49,42 @@ class CustomAdapter extends ArrayAdapter<String>
 		this.sSubHeadings=sSubHeading;
 	}
 	
+	class MyViewHolder
+	{
+		TextView tvHeading;
+		TextView tvSubHeading;
+		ImageView imgView;
+		public MyViewHolder(View rowView) 
+		{
+			// TODO Auto-generated constructor stub
+			tvHeading = (TextView)rowView.findViewById(R.id.tvHeading);
+			tvSubHeading = (TextView)rowView.findViewById(R.id.tvSubHeading);
+			imgView = (ImageView)rowView.findViewById(R.id.imgPicFruit);
+		}
+	}
+	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent)
 	{
-		// TODO Auto-generated method stub
 		
-		LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
-		View row = layoutInflater.inflate(R.layout.rowitem, parent, false);
+		View row = convertView;
+		MyViewHolder myViewHolder = null;
 		
-		TextView tvHeading = (TextView)row.findViewById(R.id.tvHeading);
-		TextView tvSubHeading = (TextView)row.findViewById(R.id.tvSubHeading);
-		ImageView imgView = (ImageView)row.findViewById(R.id.imgPicFruit);
 		
-		tvHeading.setText(sHeadings[position]);
-		tvSubHeading.setText(sSubHeadings[position]);
-		imgView.setImageResource(iImgArray[position]);
+		if(row == null)
+		{
+			LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
+		    row = layoutInflater.inflate(R.layout.rowitem, parent, false);
+			myViewHolder = new MyViewHolder(row);
+			row.setTag(myViewHolder);
+		}
+		else
+		{
+			myViewHolder = (MyViewHolder)row.getTag();
+		}
+		myViewHolder.tvHeading.setText(sHeadings[position]);
+		myViewHolder.tvSubHeading.setText(sSubHeadings[position]);
+		myViewHolder.imgView.setImageResource(iImgArray[position]);
 		return row;
 	}
 }

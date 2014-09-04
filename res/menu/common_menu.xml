@@ -1,27 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
 	
-	
-	
-	
-	
 	<item
 		android:id="@+id/ABOUT"
 		android:orderInCategory="100"
 		android:showAsAction="never"
-		android:title="About"/>
+		android:title="About"
+		android:icon="@android:drawable/ic_menu_more"
+		/>
 	
 		
 	<item
 		android:id="@+id/COMMENT"
 		android:orderInCategory="100"
 		android:showAsAction="never"
-		android:title="Comment"/>
+		android:title="Comment"
+		android:icon="@android:drawable/ic_menu_send"/>
 	
 	<item
 		android:id="@+id/EXIT"
 		android:orderInCategory="100"
 		android:showAsAction="never"
-		android:title="Exit"/>
+		android:title="Exit"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
 	
 </menu>

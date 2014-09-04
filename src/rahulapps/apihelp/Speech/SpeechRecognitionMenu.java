@@ -29,7 +29,7 @@ public class SpeechRecognitionMenu extends SherlockActivity implements OnItemCli
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_menu);
-		getActionBar().setTitle("Speech Recognition");
+		getSupportActionBar().setTitle("Speech Recognition");
 		lv=(ListView)findViewById(R.id.Common_ListView);
 		
 		

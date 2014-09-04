@@ -4,7 +4,7 @@ import com.actionbarsherlock.app.SherlockActivity;
 
 import rahulapps.apihelp.R;
 import android.os.Bundle;
-
+import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,13 +25,13 @@ public class CustomListViewAPI extends SherlockActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customlistview);
-        
-        getSupportActionBar().setTitle("Custom ListView");
+		getSupportActionBar().setTitle("Custom ListView");
         
         ListView lv = (ListView)findViewById(R.id.lvListView);
         
         CustomAdapter adapter = new CustomAdapter(this, sHeadings, sSubHeadings, iImgArray);
         lv.setAdapter(adapter);
+        
         
     }
     
@@ -53,21 +53,42 @@ class CustomAdapter extends ArrayAdapter<String>
 		this.sSubHeadings=sSubHeading;
 	}
 	
+	class MyViewHolder
+	{
+		TextView tvHeading;
+		TextView tvSubHeading;
+		ImageView imgView;
+		public MyViewHolder(View rowView) 
+		{
+			// TODO Auto-generated constructor stub
+			tvHeading = (TextView)rowView.findViewById(R.id.tvHeading);
+			tvSubHeading = (TextView)rowView.findViewById(R.id.tvSubHeading);
+			imgView = (ImageView)rowView.findViewById(R.id.imgPicFruit);
+		}
+	}
+	
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent)
 	{
-		// TODO Auto-generated method stub
 		
-		LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(SherlockActivity.LAYOUT_INFLATER_SERVICE);
-		View row = layoutInflater.inflate(R.layout.activity_customlistview_row, parent, false);
+		View row = convertView;
+		MyViewHolder myViewHolder = null;
 		
-		TextView tvHeading = (TextView)row.findViewById(R.id.tvHeading);
-		TextView tvSubHeading = (TextView)row.findViewById(R.id.tvSubHeading);
-		ImageView imgView = (ImageView)row.findViewById(R.id.imgPicFruit);
 		
-		tvHeading.setText(sHeadings[position]);
-		tvSubHeading.setText(sSubHeadings[position]);
-		imgView.setImageResource(iImgArray[position]);
+		if(row == null)
+		{
+			LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
+		    row = layoutInflater.inflate(R.layout.activity_customlistview_row, parent, false);
+			myViewHolder = new MyViewHolder(row);
+			row.setTag(myViewHolder);
+		}
+		else
+		{
+			myViewHolder = (MyViewHolder)row.getTag();
+		}
+		myViewHolder.tvHeading.setText(sHeadings[position]);
+		myViewHolder.tvSubHeading.setText(sSubHeadings[position]);
+		myViewHolder.imgView.setImageResource(iImgArray[position]);
 		return row;
 	}
 }

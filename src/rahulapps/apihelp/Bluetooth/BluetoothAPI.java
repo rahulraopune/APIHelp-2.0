@@ -1,20 +1,15 @@
 package rahulapps.apihelp.Bluetooth;
 
-import com.actionbarsherlock.ActionBarSherlock;
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
-
 import rahulapps.apihelp.R;
-
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.widget.Toast;
+
+import com.actionbarsherlock.app.SherlockActivity;
 
 public class BluetoothAPI extends SherlockActivity implements OnCheckedChangeListener
 {
