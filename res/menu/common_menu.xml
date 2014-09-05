@@ -9,6 +9,15 @@
 		android:icon="@android:drawable/ic_menu_more"
 		/>
 	
+		<item
+		android:id="@+id/OBJECTIVE"
+		android:orderInCategory="100"
+		android:showAsAction="never"
+		android:title="Objective"
+		android:icon="@android:drawable/ic_menu_add"
+		/>
+	
+	
 		
 	<item
 		android:id="@+id/COMMENT"

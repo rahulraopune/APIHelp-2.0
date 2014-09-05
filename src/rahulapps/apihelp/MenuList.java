@@ -24,7 +24,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
 	
-	DrawerLayout dl;
+	//DrawerLayout dl;
 	
 	
 	
@@ -59,6 +59,7 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		lv.setAdapter(arrayadapter);
 		
 		getSupportActionBar().setTitle("APIHelp 2.0");
+		
 		
 		
 		
@@ -119,6 +120,11 @@ public class MenuList extends SherlockActivity implements OnItemClickListener
 		case R.id.ABOUT:
 			Intent intentAbout = new Intent("rahulapps.apihelp.Settings.AboutAPI");
 			startActivity(intentAbout);
+			break;
+			
+		case R.id.OBJECTIVE:
+			Intent intentObjective = new Intent("rahulapps.apihelp.Settings.Objective");
+			startActivity(intentObjective);
 			break;
 			
 		case R.id.COMMENT:

@@ -81,6 +81,11 @@ public class SensorAccelerometerMenu extends SherlockActivity implements OnItemC
 			startActivity(intentAbout);
 			break;
 			
+		case R.id.OBJECTIVE:
+			Intent intentObjective = new Intent("rahulapps.apihelp.Settings.Objective");
+			startActivity(intentObjective);
+			break;
+			
 		case R.id.COMMENT:
 			Intent intentComment = new Intent("rahulapps.apihelp.Settings.CommentAPI");
 			startActivity(intentComment);

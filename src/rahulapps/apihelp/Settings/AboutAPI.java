@@ -15,5 +15,6 @@ public class AboutAPI extends SherlockActivity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
 		getSupportActionBar().setTitle("About Developer");
+		
 	}
 }
