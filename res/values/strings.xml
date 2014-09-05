@@ -17,6 +17,16 @@
         <item >Pluto</item>
     </string-array>
     
+	<string-array name = "options">
+	    <item>Options</item>
+        <item>About</item>
+        <item>Objective </item>
+        <item>Comment</item>
+        <item>Source Code</item>
+        <item>Back</item>
+        
+    </string-array>
+    
 	<string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
     

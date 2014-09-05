@@ -21,7 +21,7 @@ public class CustomToastMenu extends SherlockActivity implements OnItemClickList
 	ListView lv;
 	ArrayAdapter<String> arrayadapter;
 	
-	String sMenu[]={"Custom Toast API","Custom Toast Row.XML","Custom Toast Layout XML","ToastLayout XML ","Custom Toast Code"};
+	String sMenu[]={"Custom Toast API","Custom Toast Row.XML","Custom Toast Layout.XML","ToastLayout.XML ","Custom Toast Code"};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
